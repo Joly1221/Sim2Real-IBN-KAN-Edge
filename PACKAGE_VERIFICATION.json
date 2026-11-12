@@ -1,0 +1,66 @@
+{
+  "passed": true,
+  "code_root": "D:\\Projects\\Sim2real\\code",
+  "imported_entry_points": [
+    "build_ibn.py",
+    "build_ibn_kan_edge.py",
+    "edge_branch.py",
+    "evaluate_kaggle_test.py",
+    "evaluate_real_adapter_test.py",
+    "ibn_backbone.py",
+    "ibn_kan_edge.py",
+    "kan_adapter.py",
+    "predict_ce3_full.py",
+    "predict_ibn.py",
+    "predict_ibn_kan_edge.py",
+    "prepare_ibn_real_train.py",
+    "runtime.py",
+    "train_ibn.py",
+    "train_ibn_kan_edge.py",
+    "train_ibn_kan_edge_real.py",
+    "training_progress.py",
+    "verify_ibn.py",
+    "verify_ibn_kan_edge.py",
+    "verify_real_adapter_evaluation.py",
+    "verify_real_training_recovery.py"
+  ],
+  "module_origins": {
+    "runtime": "D:\\Projects\\Sim2real\\code\\runtime.py",
+    "ibn_backbone": "D:\\Projects\\Sim2real\\code\\ibn_backbone.py",
+    "ibn_kan_edge": "D:\\Projects\\Sim2real\\code\\ibn_kan_edge.py",
+    "kan_adapter": "D:\\Projects\\Sim2real\\code\\kan_adapter.py",
+    "edge_branch": "D:\\Projects\\Sim2real\\code\\edge_branch.py",
+    "ultralytics": "D:\\Projects\\Sim2real\\code\\ultralytics_source\\ultralytics\\__init__.py",
+    "kan": "D:\\Projects\\Sim2real\\code\\official_pykan\\kan\\__init__.py",
+    "sklearn": "D:\\Projects\\Sim2real\\code\\dependencies\\sklearn\\__init__.py",
+    "joblib": "D:\\Projects\\Sim2real\\code\\dependencies\\joblib\\__init__.py",
+    "threadpoolctl": "D:\\Projects\\Sim2real\\code\\dependencies\\threadpoolctl.py"
+  },
+  "copied_file_hashes_verified": 2640,
+  "full_checkpoint_sha256": "5eba98606a50a81b9de7ac4f99446ac07a37c8274d0bad013b0360c18cfe7c31",
+  "checkpoint_epoch": 30,
+  "shapes": {
+    "P3": [
+      1,
+      64,
+      128,
+      128
+    ],
+    "logits": [
+      1,
+      5,
+      128,
+      128
+    ]
+  },
+  "output_sha256": "08b5f7e253254621ea2de169945c92f2c90e2b9bfe463317f99d327ef9189329",
+  "exact_forward_match_with_original": true,
+  "trainable_parameters": 15025,
+  "frozen_state_tensors": 368,
+  "optimizer_contains_only_branches": true,
+  "no_training_performed": true,
+  "old_code_directory_required_for_import": false,
+  "original_source_files_unchanged_during_copy": true,
+  "data_not_copied": true,
+  "python_environment_not_copied": true
+}

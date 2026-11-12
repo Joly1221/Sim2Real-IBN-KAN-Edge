@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pt
+*.pth
+*.onnx
+*.log
+.venv*/
+runs/
+predictions/
+yolo-config/
+real_adapter*_data/
+smoke_data/
+**/output/
+.env
+.env.*

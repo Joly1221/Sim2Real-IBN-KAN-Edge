@@ -1,0 +1,73 @@
+{
+  "date": "2026-11-12",
+  "target": "D:\\Projects\\Sim2real\\imp\\IBN",
+  "formal_training_performed": false,
+  "one_combination_only": "IBN + single KAN + edge branch",
+  "files": [
+    {
+      "path": "ibn_kan_edge.py",
+      "bytes": 5397,
+      "sha256": "ebafc26a24310056c3f6670fda7ad10d819bdb5713ef4e61a937ebd1ea1919cf"
+    },
+    {
+      "path": "build_ibn_kan_edge.py",
+      "bytes": 3357,
+      "sha256": "f87b2d45c10333772c1a4c2dcda7d145eff89712a2ecbc8563775d8bba8186a8"
+    },
+    {
+      "path": "train_ibn_kan_edge.py",
+      "bytes": 7812,
+      "sha256": "ab73f63be29944d91fee98c748cfd0eab2cac5fc71d1d18b081556d8ca9c4e46"
+    },
+    {
+      "path": "verify_ibn_kan_edge.py",
+      "bytes": 5615,
+      "sha256": "e23ed7e42d2d5c15998cd14b74530a32b5e300fa5f003457a50ba2fb88e78a4c"
+    },
+    {
+      "path": "predict_ibn_kan_edge.py",
+      "bytes": 1352,
+      "sha256": "94ed70328571e67bb1fe27d5498c7724c078d4b60599616655aa24470c956450"
+    },
+    {
+      "path": "IBN_KAN_EDGE.md",
+      "bytes": 7340,
+      "sha256": "bbc4347f96ff28fcb629887945adb56de110d8faf59e8e0ab4720bc3a0f6e8a4"
+    },
+    {
+      "path": "ibn_kan_edge_structure.svg",
+      "bytes": 4999,
+      "sha256": "be430147b9397decff2e2064970b1766c47e4fdad671b820e4e197c89e34ca39"
+    },
+    {
+      "path": "weights/ibn_kan_edge_init.pt",
+      "bytes": 6807314,
+      "sha256": "04900856b2c87123befbe2c5842a55652f831a46bc33a38b8afa0af2ce5493f3"
+    },
+    {
+      "path": "weights/ibn_kan_edge_build_audit.json",
+      "bytes": 4091,
+      "sha256": "1e9c8f3ad274b4c2057ba6561779eaa8f36a42478b30a95dbdad743ffa3011ba"
+    },
+    {
+      "path": "checks/ibn_kan_edge_verification.json",
+      "bytes": 1678,
+      "sha256": "a039c99c85bc2adb62cb5256d14ad36b88694cec0080078b05d4f70e9a7da727"
+    },
+    {
+      "path": "checks/ibn_kan_edge_smoke_audit.json",
+      "bytes": 1311,
+      "sha256": "5a86f7620f386e1bbf6048139f0200892755390124a0126b886f69279c6b28de"
+    },
+    {
+      "path": "checks/ibn_kan_edge_smoke_results.csv",
+      "bytes": 284,
+      "sha256": "5f2fe2c6743c8a3e57fc0cbdfd906b0128db9dc4ae10c9a20b2900dc6ac98ea0"
+    },
+    {
+      "path": "checks/ibn_kan_edge_smoke.log",
+      "bytes": 34731,
+      "sha256": "297cc8287c8119bb6df55b6a5de1e9804aa38963c49bab32a652aa6a4f2c201f"
+    }
+  ]
+}

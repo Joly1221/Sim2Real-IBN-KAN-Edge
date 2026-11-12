@@ -1,0 +1,79 @@
+{
+  "date": "2026-11-11",
+  "target": "D:\\Projects\\Sim2real\\imp\\IBN",
+  "description": "Original simulated model with shallow IBN initialization, scripts, diagram, and CPU verification records",
+  "formal_training_performed": false,
+  "includes_smoke_training_weights": false,
+  "files": [
+    {
+      "path": "build_ibn.py",
+      "bytes": 2965,
+      "sha256": "d5f49874ad2c055cfc0cb09bb5bd0da0c81e887ac40bb6d149fe3ce4f61e3646"
+    },
+    {
+      "path": "checks/smoke_results.csv",
+      "bytes": 239,
+      "sha256": "3c22352ee3f4db34cd82e3c23d50472b558cbf22c130eb5e65177f12697a9b29"
+    },
+    {
+      "path": "checks/smoke_training_audit.json",
+      "bytes": 708,
+      "sha256": "3bdd3144feca4f9585320dba905efa2dba6ad32dd506ffb63103246d9526aa3c"
+    },
+    {
+      "path": "checks/verification.json",
+      "bytes": 3090,
+      "sha256": "1d1509aba7992345b7d14d8dd793019a60778eee3c89e547a5a4fdd04f8d6fba"
+    },
+    {
+      "path": "ibn_backbone.py",
+      "bytes": 5162,
+      "sha256": "dec1258ddb033a1196eadd478b3588da68c5c0a245c9ba674f7ef02136fc9690"
+    },
+    {
+      "path": "predict_ibn.py",
+      "bytes": 1550,
+      "sha256": "afee1b2b5a875314e8d29a0564386b694213ab4ebb39d92890a0be006988073a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9067,
+      "sha256": "140171f4ecfe9835159acc8c84023b241e78f50a36838a609626a687ac0002ee"
+    },
+    {
+      "path": "runtime.py",
+      "bytes": 1996,
+      "sha256": "045b82fc93e7be6265e53985d3eeea41914c317f771a8140d77937ff25726c65"
+    },
+    {
+      "path": "structure.svg",
+      "bytes": 6897,
+      "sha256": "19a275620101459a6728fa63cf4ff72009d940f4f5d1a5a659c7438254c4118d"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1744,
+      "sha256": "a188a074060dee9030bd0e7b884d15f48412ce260cf40c1eddd084b8ad038e44"
+    },
+    {
+      "path": "train_ibn.py",
+      "bytes": 7398,
+      "sha256": "e2ac023d623c345cb9ff1ad6da7d30895890915b16138007a341bfe115fe6b4b"
+    },
+    {
+      "path": "verify_ibn.py",
+      "bytes": 6117,
+      "sha256": "88c3a39c7e7a1486f838217fd1b89fb65e1356855414677fa53faf520a240d8d"
+    },
+    {
+      "path": "weights/build_audit.json",
+      "bytes": 2314,
+      "sha256": "a1f83793612d5f387cf2ed9aa6ee6a44d680f72460f5c6463667b52e14424bac"
+    },
+    {
+      "path": "weights/yolo26n_sem_ibn_init.pt",
+      "bytes": 6736310,
+      "sha256": "12857f402d504e29ad72470847de40fcafca91cd93c40352bfdabf1f1cb065c7"
+    }
+  ]
+}

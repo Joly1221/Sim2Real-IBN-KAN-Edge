@@ -1,0 +1,19 @@
+{
+  "seed": 20261112,
+  "input_shape": [
+    1,
+    3,
+    1024,
+    1024
+  ],
+  "output_shape": [
+    1,
+    5,
+    128,
+    128
+  ],
+  "output_sha256": "08b5f7e253254621ea2de169945c92f2c90e2b9bfe463317f99d327ef9189329",
+  "torch_version": "2.5.1+cu124",
+  "device": "cpu",
+  "threads": 1
+}

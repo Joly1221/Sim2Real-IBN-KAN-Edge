@@ -1,0 +1,2879 @@
+{
+  "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train",
+  "annotation_sha256": "dfa830e07d9c01dae621a598f73190626361eadfd12d169d731331017623d6b5",
+  "images": 150,
+  "annotations": 617,
+  "all_images_used_for_training": true,
+  "validation_enabled": false,
+  "test_used": false,
+  "class_mapping": {
+    "Craters": 1,
+    "Rocks": 2,
+    "Sky": 4
+  },
+  "ignore_id": 255,
+  "unlabeled_policy": "unknown, not lunar regolith",
+  "overlap_policy": "cross-class overlap ignored; same-class polygons unioned",
+  "pixels_by_class": [
+    0,
+    5256797,
+    1312579,
+    0,
+    30601988
+  ],
+  "reliable_edge_positive_pixels": 675,
+  "images_with_reliable_positive_edges": 10,
+  "source_unchanged": true,
+  "records": [
+    {
+      "image_id": 0,
+      "file": "AS15-84-11334.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS15-84-11334.jpg",
+      "sha256": "c472b9106562c98c217673b01691f76d0b6378a936ebdea8fef1fcab80c3fedc",
+      "mask_sha256": "a840ea22d23b6543080660d5505ac9e2b3be76a0572bacb16f1bc267f10a1349",
+      "pixels_by_class": [
+        0,
+        28485,
+        0,
+        0,
+        387829
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 393686,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 412473
+    },
+    {
+      "image_id": 1,
+      "file": "AS15-85-11400.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS15-85-11400.jpg",
+      "sha256": "24981e129fdac1050b3458e4b034961abaf3734846b7b49c5d24d481bedbec02",
+      "mask_sha256": "1b0331751127a5a5d6117d4f5137ceed2625197138d31af5d23401c00816584e",
+      "pixels_by_class": [
+        0,
+        9772,
+        0,
+        0,
+        133367
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 666861,
+      "clipped_polygons": 2,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 141351
+    },
+    {
+      "image_id": 3,
+      "file": "AS15-85-11426.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS15-85-11426.jpg",
+      "sha256": "ae6852bcfb0e54b6ee6a2e50cc87e9042894af718efcec297fc0340389b8ed74",
+      "mask_sha256": "1e8ebbd6e35036397beaebd788b76f789d8207e23aa6c5bf5937576434574779",
+      "pixels_by_class": [
+        0,
+        69909,
+        0,
+        0,
+        102196
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 637895,
+      "clipped_polygons": 2,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 169772
+    },
+    {
+      "image_id": 5,
+      "file": "AS16-110-17967.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS16-110-17967.jpg",
+      "sha256": "52c1b31c08ef4d26b95b22442e883ecf57b74138353085638cdd95517761b219",
+      "mask_sha256": "231624f0f05063b89149b76ae4bc00c8dcd6345a83ad4793a9822f47773fdab6",
+      "pixels_by_class": [
+        0,
+        0,
+        3010,
+        0,
+        294722
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 512268,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 296341
+    },
+    {
+      "image_id": 13,
+      "file": "projectapolloarchive_21498499228_AS16-108-17723.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21498499228_AS16-108-17723.jpg",
+      "sha256": "1cf97d3a09134f581618596d0018b1e05136648258d373b88f10e70b527b71a2",
+      "mask_sha256": "64eb12d3c542dca42dac7f116183234f6f54b2be10d38b31d52ebd045f8d7d1b",
+      "pixels_by_class": [
+        0,
+        0,
+        428,
+        0,
+        227042
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 582530,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 226255
+    },
+    {
+      "image_id": 17,
+      "file": "projectapolloarchive_21500415898_AS15-85-11433.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21500415898_AS15-85-11433.jpg",
+      "sha256": "79b146e3d8249b31cef0693d19244663f4ed8448535a7a4662fe44b09738ab5a",
+      "mask_sha256": "204f2ca51f252b6a9d55b5f3f1dc205425842542ad0eb60e89571cb9544d0fb4",
+      "pixels_by_class": [
+        0,
+        4239,
+        0,
+        0,
+        75494
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 730267,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 78454
+    },
+    {
+      "image_id": 18,
+      "file": "projectapolloarchive_21500445568_AS15-85-11402.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21500445568_AS15-85-11402.jpg",
+      "sha256": "57fca9482945e1fdc899cb5d7f69551755e8625903ce3b9f686c7b3179c9cef7",
+      "mask_sha256": "77afaadc35535438b84736c6b2125499259f966076e6f9ebf630bdd113a37c8f",
+      "pixels_by_class": [
+        0,
+        4680,
+        967,
+        0,
+        161341
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 643012,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 165377
+    },
+    {
+      "image_id": 20,
+      "file": "projectapolloarchive_21501423649_AS15-85-11426.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21501423649_AS15-85-11426.jpg",
+      "sha256": "2853a61102ac7ed46b94e6138dbcfa7e388c75f7959af29d932e5dda373346f5",
+      "mask_sha256": "a46d9895370eeea32bf1e6c120474030719530ea600cfbbe36a9fbcae7deba2b",
+      "pixels_by_class": [
+        0,
+        70401,
+        0,
+        0,
+        109902
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 629697,
+      "clipped_polygons": 2,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 177935
+    },
+    {
+      "image_id": 21,
+      "file": "projectapolloarchive_21511494948_AS14-64-9116.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21511494948_AS14-64-9116.jpg",
+      "sha256": "035dacc3e4f5ea922a4f73ebbe3615b10eb864ef15750408bb4531fa55d8c720",
+      "mask_sha256": "a90f29f3f0966ddb7670006c017f3d3ae7ee4c621486ba7ca7f4ff94d2b825cb",
+      "pixels_by_class": [
+        0,
+        0,
+        10849,
+        0,
+        392566
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 406585,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 401751
+    },
+    {
+      "image_id": 23,
+      "file": "projectapolloarchive_21512396669_AS14-64-9052.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21512396669_AS14-64-9052.jpg",
+      "sha256": "3ce01ef335e3fcf7fcf0e54b72d9d99989c104b9b55d53db3ec31ab57e947fe4",
+      "mask_sha256": "21a7b21447cb36217ef86c4464f679c7bbb6e138c096a96b0fb375af1436b785",
+      "pixels_by_class": [
+        0,
+        0,
+        959,
+        0,
+        412331
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 396710,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 411844
+    },
+    {
+      "image_id": 24,
+      "file": "projectapolloarchive_21512509779_AS14-64-9082.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21512509779_AS14-64-9082.jpg",
+      "sha256": "93a32496dc7fb928b750c5e8d7cde365c7b98a402fab78aa5711d125b5078d00",
+      "mask_sha256": "8d948cb8676f7e564b329e03d9ada9e5ea46184804f54028a6c0f2daef6f2753",
+      "pixels_by_class": [
+        0,
+        11648,
+        426,
+        0,
+        389246
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 408680,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 399113
+    },
+    {
+      "image_id": 26,
+      "file": "projectapolloarchive_21512899699_AS16-110-18000.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21512899699_AS16-110-18000.jpg",
+      "sha256": "d2e1e2219244abf95745bb74ebb3caa404f14598fb38c622ee3734214ee7c9ea",
+      "mask_sha256": "ac3521621a64fcc189052ca68c64726de644e364646be7b35d7513103b89079e",
+      "pixels_by_class": [
+        0,
+        0,
+        0,
+        0,
+        177272
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 632728,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 176372
+    },
+    {
+      "image_id": 27,
+      "file": "projectapolloarchive_21512921959_AS16-110-17972.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21512921959_AS16-110-17972.jpg",
+      "sha256": "cb9662ad95684aa1d39614bd39c84d90c8a7029f2fc8c3136939e7f9c915b59f",
+      "mask_sha256": "9ba24bd131c49373e14f84e33e0ccdae0be98e4c15504497f73c4633a44808cf",
+      "pixels_by_class": [
+        0,
+        0,
+        4127,
+        0,
+        267832
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 538041,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 270792
+    },
+    {
+      "image_id": 28,
+      "file": "projectapolloarchive_21517083819_AS17-136-20771.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21517083819_AS17-136-20771.jpg",
+      "sha256": "43aff258fcb164207c40fae520f5661cba4e611fa71e8fac99fe833277f95597",
+      "mask_sha256": "07b361c42659826c80d135a90d4bc80a67d2cfde25c5bf8ae80be94fb865e11b",
+      "pixels_by_class": [
+        0,
+        0,
+        17714,
+        0,
+        133482
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 658804,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 149774
+    },
+    {
+      "image_id": 33,
+      "file": "AS11-40-5857.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS11-40-5857.jpg",
+      "sha256": "dd0eb1772ef365fcb282adb35d0e502fe3fb7b65fffd51f2eaf6a8c1f1cab1d1",
+      "mask_sha256": "bd12775bac2437981244271cd91b96ebbb74abbf7f454a1637d958b1c5bf52dc",
+      "pixels_by_class": [
+        0,
+        17321,
+        1103,
+        0,
+        369005
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 422571,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 385108
+    },
+    {
+      "image_id": 34,
+      "file": "AS11-40-5908.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS11-40-5908.jpg",
+      "sha256": "a8df2a199f91715a52d8f44cc4c6aa61617459877985a6c762db9c58db115419",
+      "mask_sha256": "bba7a24046453a858d13d9e2369b131d77ae13ae8fd616868372d2162e60a7ed",
+      "pixels_by_class": [
+        0,
+        0,
+        4460,
+        0,
+        249173
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 556367,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 252377
+    },
+    {
+      "image_id": 35,
+      "file": "AS11-40-5910.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS11-40-5910.jpg",
+      "sha256": "031362b995e6929d4d284c44aa0b9b4c8c62076af945cf27a7fafc447cea5873",
+      "mask_sha256": "497a34ac4d7dfb67f7bb36f33622d35067a51e1cd685cccae51a572f13bc175d",
+      "pixels_by_class": [
+        0,
+        24391,
+        0,
+        0,
+        135081
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 650528,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 157020
+    },
+    {
+      "image_id": 39,
+      "file": "AS11-40-5938.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS11-40-5938.jpg",
+      "sha256": "5d198fd6c7dcf7eee4acac72a61f5937326a3e530847b23e27d2acb0e341f10f",
+      "mask_sha256": "79b33870b113c34cc63182ef77dc77d0af120139da309b65ff269f96826f729b",
+      "pixels_by_class": [
+        0,
+        30410,
+        0,
+        0,
+        236202
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 543388,
+      "clipped_polygons": 2,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 264650
+    },
+    {
+      "image_id": 40,
+      "file": "AS11-40-5939.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS11-40-5939.jpg",
+      "sha256": "cdfad25694a8ad62a0c3934350f280a30388f3d4e6db292d31aff76243817c90",
+      "mask_sha256": "f1dfc6e8f73bfcdc33e98bc8e0906c11e674d5f7509a177c03e63877cda375fe",
+      "pixels_by_class": [
+        0,
+        80613,
+        2168,
+        0,
+        232000
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 495219,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 311352
+    },
+    {
+      "image_id": 41,
+      "file": "AS11-40-5940.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS11-40-5940.jpg",
+      "sha256": "bade18d48b06ddf5ec325127b6d33f7aea5f28105880e404873d281e9fe8f5bb",
+      "mask_sha256": "a6ab824ed481181dbb5dc00ecd5708c960b4369501095bcbe03e1767b557405d",
+      "pixels_by_class": [
+        0,
+        0,
+        5567,
+        0,
+        247663
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 556770,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 251838
+    },
+    {
+      "image_id": 45,
+      "file": "projectapolloarchive_21057422624_AS17-134-20418.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21057422624_AS17-134-20418.jpg",
+      "sha256": "8c7501df0dbc3ad60d7af2c2a32d1fb3e25848b3288a5179fbe27a71be54b2b4",
+      "mask_sha256": "217151d5fc4cdac8b73e73778b75955241a9b9af6e41ac04f95da67c77f7b440",
+      "pixels_by_class": [
+        0,
+        13844,
+        1453,
+        0,
+        292529
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 502174,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 305285
+    },
+    {
+      "image_id": 48,
+      "file": "projectapolloarchive_21061683434_AS17-137-20949.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21061683434_AS17-137-20949.jpg",
+      "sha256": "760d646905cd6677583f9373c54009557184f4d9d7ef478359237a3e09235d60",
+      "mask_sha256": "9d17e6bddef119bcda0c9fa5587769d778f4d044b67447a197f0fef06b8f2d9d",
+      "pixels_by_class": [
+        0,
+        15459,
+        28272,
+        0,
+        145078
+      ],
+      "ambiguous_pixels": 32,
+      "unknown_pixels": 621191,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 30,
+      "reliable_edge_valid_pixels": 185502
+    },
+    {
+      "image_id": 58,
+      "file": "projectapolloarchive_21065533964_AS15-85-11460.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21065533964_AS15-85-11460.jpg",
+      "sha256": "4cde6dd1074bc2781cf6fe6c0256e7e329839fcbb21aef8c3eb8df9bb1926bc1",
+      "mask_sha256": "62f52ef4da86a88589b6ca49241717242b8be15a03ec855b8e11beb3bfb42b61",
+      "pixels_by_class": [
+        0,
+        23554,
+        0,
+        0,
+        130162
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 656284,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 150927
+    },
+    {
+      "image_id": 60,
+      "file": "projectapolloarchive_21492160860_AS17-134-20419.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21492160860_AS17-134-20419.jpg",
+      "sha256": "5c7f8f61695f80862aa78fb8b0d9fc9675dd9b3bada7030ed3ee1e66128c5bff",
+      "mask_sha256": "6e273f125aaf2c2e35b68e985562f2e22bb6b758ccda28c6e885ec77f5c230c9",
+      "pixels_by_class": [
+        0,
+        37897,
+        2790,
+        0,
+        296886
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 472427,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 334987
+    },
+    {
+      "image_id": 62,
+      "file": "projectapolloarchive_21492219988_AS17-134-20437.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21492219988_AS17-134-20437.jpg",
+      "sha256": "36f81933eac899305ec2e812038385d001aedae1a4ab82b1f96a1123692795d9",
+      "mask_sha256": "3d13cc2d0166e4091a172a6c525321404d261465593c63d61889e87ac5fda7f9",
+      "pixels_by_class": [
+        0,
+        10225,
+        1587,
+        0,
+        271049
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 527139,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 280474
+    },
+    {
+      "image_id": 63,
+      "file": "projectapolloarchive_21492858079_AS17-141-21514.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21492858079_AS17-141-21514.jpg",
+      "sha256": "5c32bdee3db044f8e41ca46ffb35bf8b81a685da06df499d338ae233e88f197a",
+      "mask_sha256": "00ae82b3546999c860e85694ce8e837b8cf961dbd85fdc07678e244052af8b51",
+      "pixels_by_class": [
+        0,
+        0,
+        2107,
+        0,
+        112946
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 694947,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 113636
+    },
+    {
+      "image_id": 64,
+      "file": "projectapolloarchive_21495627660_AS14-66-9312.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21495627660_AS14-66-9312.jpg",
+      "sha256": "017d3a566e227bd2724d1f3df8b25cf79be568dbe63664b44787e19af43c51dd",
+      "mask_sha256": "e728502ffd02d6eaf676a583493dac91d0974038cdd24f9a8e43386aa7d40e14",
+      "pixels_by_class": [
+        0,
+        32065,
+        0,
+        0,
+        428275
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 349660,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 456782
+    },
+    {
+      "image_id": 67,
+      "file": "projectapolloarchive_21495784920_AS15-84-11244.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21495784920_AS15-84-11244.jpg",
+      "sha256": "92cffd7cf7f653222460538e8b6abcfb1c1d8d3676f5d2018a0bc65cc0424fa6",
+      "mask_sha256": "04d1575066f65458c783a842dc3329c9f971b767b631a8c6d99c5250988d13f6",
+      "pixels_by_class": [
+        0,
+        73477,
+        0,
+        0,
+        214378
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 522145,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 281519
+    },
+    {
+      "image_id": 71,
+      "file": "AS14-64-9091.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS14-64-9091.jpg",
+      "sha256": "1fe9038649cc5230912502ba46a13c96dc7ba2019ae567a841e0ef2fedcfee21",
+      "mask_sha256": "60e600f27fc59d1276c0bd5664819cec81255ca679524b35613122ae0d2cb3e9",
+      "pixels_by_class": [
+        0,
+        1069,
+        0,
+        0,
+        407660
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 401271,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 406450
+    },
+    {
+      "image_id": 73,
+      "file": "AS14-66-9301.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS14-66-9301.jpg",
+      "sha256": "17a09c84ff49ca1ddf18cf1f16b68d43ba8b58c5b850dba5dd43571b2f7bc632",
+      "mask_sha256": "5bf47a57db5ffa3577f924521d331ff2e07436733dd460bccae8a558f19e81bc",
+      "pixels_by_class": [
+        0,
+        41422,
+        0,
+        0,
+        420040
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 348538,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 458909
+    },
+    {
+      "image_id": 75,
+      "file": "AS15-82-11052.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS15-82-11052.jpg",
+      "sha256": "4dc3056aa2862e67cb59f0ded55214475d9e3b899dbe6f6cf097da780aa18a24",
+      "mask_sha256": "3172b70c9f99880810b3751026b4c5e561abb4b2f7d446fd9d9d7e348cf2366e",
+      "pixels_by_class": [
+        0,
+        0,
+        0,
+        0,
+        284949
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 525051,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 283041
+    },
+    {
+      "image_id": 79,
+      "file": "projectapolloarchive_21077041594_AS16-110-18003.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21077041594_AS16-110-18003.jpg",
+      "sha256": "c5222565fd14980663161d5643818265f7de7f899b8577609cfd830127a8f472",
+      "mask_sha256": "9542e069927964b08b5d70528f15bfe22d21d668872f4b3ab56f04eb1e9fd3c6",
+      "pixels_by_class": [
+        0,
+        0,
+        0,
+        0,
+        239913
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 570087,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 238512
+    },
+    {
+      "image_id": 80,
+      "file": "projectapolloarchive_21078061774_AS16-106-17403.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21078061774_AS16-106-17403.jpg",
+      "sha256": "d69032d4052156ffd7965ef677055dc1663cfe04ed417023d96fd3d524429a9a",
+      "mask_sha256": "2114ee01820608c69a2aeb7f62aa19033cadcf6075e55387dc18d46b5f40ac1e",
+      "pixels_by_class": [
+        0,
+        0,
+        10651,
+        0,
+        274590
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 524759,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 282695
+    },
+    {
+      "image_id": 81,
+      "file": "projectapolloarchive_21078270393_AS14-64-9182.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21078270393_AS14-64-9182.jpg",
+      "sha256": "180a59931f84dba00f24657d3b1c4e15c851c661726d2e5f38bab7fa7a7d469c",
+      "mask_sha256": "f07017c4dd6798056907f898e852307ef74f99459cab0218e5b2517336b1f1d7",
+      "pixels_by_class": [
+        0,
+        0,
+        0,
+        0,
+        441326
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 368674,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 438567
+    },
+    {
+      "image_id": 92,
+      "file": "projectapolloarchive_21489927530_AS16-107-17425.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21489927530_AS16-107-17425.jpg",
+      "sha256": "9a3ce0a9af62d4965b2eb9347f3c6b7e6f5bc9a1735fb27d3ccf3ad794ee5f18",
+      "mask_sha256": "a12cf24285478c0d86d24072c98f4f1e23d602d4d97c7af2bbde4a7ff191d48e",
+      "pixels_by_class": [
+        0,
+        0,
+        7178,
+        0,
+        346646
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 456176,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 351408
+    },
+    {
+      "image_id": 95,
+      "file": "projectapolloarchive_21490966919_AS16-107-17471.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21490966919_AS16-107-17471.jpg",
+      "sha256": "1d5c390615b7dcc626b83a8f415d9c36d57df6a605e24e387a594454c16c76b7",
+      "mask_sha256": "76805343e6bf755e7efc470f810005d47c268781993e74d5f67cdc30b0a0efab",
+      "pixels_by_class": [
+        0,
+        0,
+        0,
+        0,
+        124254
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 685746,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 122430
+    },
+    {
+      "image_id": 98,
+      "file": "projectapolloarchive_21496752219_AS14-66-9310.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21496752219_AS14-66-9310.jpg",
+      "sha256": "90744a44f2097aab236560f98336d91ff591c25a57e0237c7879bf68240cb623",
+      "mask_sha256": "a50cd9b422c3c2ed3ebe00bf7c370a4fc4717528b62a9595fa771f8143dd68ad",
+      "pixels_by_class": [
+        0,
+        0,
+        0,
+        0,
+        426399
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 383601,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 424121
+    },
+    {
+      "image_id": 100,
+      "file": "AS16-116-18602.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS16-116-18602.jpg",
+      "sha256": "168b8ff7b86fdb89872a4447e28a99260cd3378de1160563ec5e1a554793bc4b",
+      "mask_sha256": "3a25cca9f88e28c4ab39df896e2e0d8bdb3974a78baa72ec03918d0a2ffeadc7",
+      "pixels_by_class": [
+        0,
+        122786,
+        42737,
+        0,
+        184070
+      ],
+      "ambiguous_pixels": 2930,
+      "unknown_pixels": 460407,
+      "clipped_polygons": 2,
+      "reliable_edge_positive_pixels": 4,
+      "reliable_edge_valid_pixels": 344797
+    },
+    {
+      "image_id": 102,
+      "file": "AS17-136-20693.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS17-136-20693.jpg",
+      "sha256": "ee6f61bd35f7c2969e94d7182f7abef62965b42d67535b39eb8f2b372219cc5d",
+      "mask_sha256": "55607ab7af7a484fe56f547ea5d076175e60b234aa0d7f67f0516161eb3b2bcd",
+      "pixels_by_class": [
+        0,
+        21834,
+        0,
+        0,
+        98203
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 689963,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 117200
+    },
+    {
+      "image_id": 104,
+      "file": "AS17-146-22385.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS17-146-22385.jpg",
+      "sha256": "28028c61656b0fd3f9846b27d5c6f8013cee4ed81856722c49deaed4d508ce5b",
+      "mask_sha256": "91ac6db9c7799c44038f34a060da9782825ce232e1a7b2b41c3fbb428deaaa3c",
+      "pixels_by_class": [
+        0,
+        1348,
+        0,
+        0,
+        223863
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 584789,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 223888
+    },
+    {
+      "image_id": 107,
+      "file": "projectapolloarchive_21639143312_AS17-142-21823.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21639143312_AS17-142-21823.jpg",
+      "sha256": "ffee1fef98a8a168775a581cb2ae5b6b139431c8b6be63ccc348110c4b8bcde3",
+      "mask_sha256": "adc14b8618539672ff7f726eba185bb3acabff5e58f919953b39d6d4edad7002",
+      "pixels_by_class": [
+        0,
+        0,
+        29573,
+        0,
+        216278
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 564149,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 241570
+    },
+    {
+      "image_id": 110,
+      "file": "projectapolloarchive_21660298076_AS16-108-17610.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21660298076_AS16-108-17610.jpg",
+      "sha256": "968d3f9d4f5091eb8d45a5ce60bfabbffc21df9e578d30ac089b46e9600a650b",
+      "mask_sha256": "c3e85f22c23a43249d82a4728afcb11a57e42aaa5d06960be5cb782fe2c7ce40",
+      "pixels_by_class": [
+        0,
+        0,
+        0,
+        0,
+        219878
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 590122,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 218506
+    },
+    {
+      "image_id": 112,
+      "file": "projectapolloarchive_21672159902_AS14-66-9299.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21672159902_AS14-66-9299.jpg",
+      "sha256": "b7ef175f8a93ca3384b550850177bc358b9708194755fbb5477ad72b23140f9e",
+      "mask_sha256": "9d3dbf291a5ce014e295ea8dfae6e36f66ace08628b969882eed9ffa382d7ac4",
+      "pixels_by_class": [
+        0,
+        25037,
+        0,
+        0,
+        436310
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 348653,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 457610
+    },
+    {
+      "image_id": 115,
+      "file": "projectapolloarchive_21673237346_AS14-64-9143.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21673237346_AS14-64-9143.jpg",
+      "sha256": "d3d46c827d23eb94fcbe11b92604a06731ed813edbf286d9ae6c561b66d3ecda",
+      "mask_sha256": "8a2fadc47fa7513ad87877f3a87620e3d13310c24b886c9b32d530da90e102af",
+      "pixels_by_class": [
+        0,
+        579,
+        0,
+        0,
+        381597
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 427824,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 380317
+    },
+    {
+      "image_id": 116,
+      "file": "projectapolloarchive_21673307756_AS14-64-9069.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21673307756_AS14-64-9069.jpg",
+      "sha256": "b6bf961f76b05b2ad51f943a7a3228f13689671192e009464e503d641ea5e76a",
+      "mask_sha256": "6c623d7923e509d3c36441504cccfdcfb9ef5f3f0b5fa890835fcd95de29e7e7",
+      "pixels_by_class": [
+        0,
+        0,
+        4621,
+        0,
+        375581
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 429798,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 378223
+    },
+    {
+      "image_id": 117,
+      "file": "projectapolloarchive_21673695236_AS16-110-17996.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21673695236_AS16-110-17996.jpg",
+      "sha256": "82cf24f24b34efb7d6e9f3f3d38d44348b2ca4b63acb70e0575581ca26c07512",
+      "mask_sha256": "7b6cb46f65355c489c3ff958a34227bdd7b395dc3d7caded75dbbc01ed8dd84c",
+      "pixels_by_class": [
+        0,
+        0,
+        0,
+        0,
+        238064
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 571936,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 236968
+    },
+    {
+      "image_id": 121,
+      "file": "projectapolloarchive_21677847726_AS17-136-20772.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21677847726_AS17-136-20772.jpg",
+      "sha256": "e52e1914a944e0d775dd02f6347957667b416aeef1ad718f77a2cd48e00b9955",
+      "mask_sha256": "14a686f83ddc9aaf30fb5db3f219b0b4f5929342ee43d74070e572d2269f7dc9",
+      "pixels_by_class": [
+        0,
+        0,
+        0,
+        0,
+        390827
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 419173,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 389215
+    },
+    {
+      "image_id": 123,
+      "file": "projectapolloarchive_21683832825_AS16-109-17783.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21683832825_AS16-109-17783.jpg",
+      "sha256": "e4bfb428bfc82b92dfb1dfd35dea38b300604b71aad4c2cc55fdc878befe0722",
+      "mask_sha256": "4d7c64db3cda76e722261d2e24ca88eed9dbff495b766957c9e558ffa221a5d7",
+      "pixels_by_class": [
+        0,
+        65670,
+        0,
+        0,
+        257910
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 486420,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 319734
+    },
+    {
+      "image_id": 124,
+      "file": "projectapolloarchive_21685122585_AS17-138-21154.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21685122585_AS17-138-21154.jpg",
+      "sha256": "7cead377bd774cc481c1b99fc4164d3df7dfdac5bdb19e9d8c8c2e470b53b96a",
+      "mask_sha256": "dff2780b8a22b9781be29fcae9664aeddd160b3566b701ca3ede1eb2edcd7580",
+      "pixels_by_class": [
+        0,
+        0,
+        4806,
+        0,
+        108343
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 696851,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 111685
+    },
+    {
+      "image_id": 127,
+      "file": "projectapolloarchive_21693583071_AS17-137-20945.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21693583071_AS17-137-20945.jpg",
+      "sha256": "df969cdf490e56e94f257ec3a81f3f9e459d2a168969f0a4cea7d2857962a6bc",
+      "mask_sha256": "4cd8df2e52340d7f707d07ceeea4132198a2bf02f6315b5f35de7bcac15b2baf",
+      "pixels_by_class": [
+        0,
+        0,
+        68176,
+        0,
+        190436
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 551388,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 255151
+    },
+    {
+      "image_id": 128,
+      "file": "projectapolloarchive_21697476501_AS15-85-11403.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21697476501_AS15-85-11403.jpg",
+      "sha256": "6d9cdfaec673376bb0049971a0833f462d799b06edff248d926ff642e651d8f2",
+      "mask_sha256": "369b79015b904208230b65c33c19c0ef047d2f316b755d0eb0ed87c4e6157381",
+      "pixels_by_class": [
+        0,
+        0,
+        4645,
+        0,
+        213631
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 591724,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 216117
+    },
+    {
+      "image_id": 129,
+      "file": "projectapolloarchive_21699771995_AS16-110-17970.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21699771995_AS16-110-17970.jpg",
+      "sha256": "8aa45177391bcbcf07ad19642357f9117602bbad733ddca7e6142b505640ad9b",
+      "mask_sha256": "b1df828d3ee1f5890f45c5e8d8b672e71056045cbfd8a71049ce108cacde8ab5",
+      "pixels_by_class": [
+        0,
+        0,
+        15759,
+        0,
+        270079
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 524162,
+      "clipped_polygons": 2,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 282054
+    },
+    {
+      "image_id": 130,
+      "file": "AS12-46-6822.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS12-46-6822.jpg",
+      "sha256": "24c74b46b7b7fd6870c99906c03b7aa0474dc8854985b316f3912b0610518816",
+      "mask_sha256": "cb5c017fc39b9fd2d03773c61ebfb2a1292f138c6d1b58267ee1e4510248d858",
+      "pixels_by_class": [
+        0,
+        0,
+        24534,
+        0,
+        250746
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 534720,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 273377
+    },
+    {
+      "image_id": 131,
+      "file": "AS12-48-7029.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS12-48-7029.jpg",
+      "sha256": "f6ef76847a5938f347d2d23f7fb40132be32d1747ae8a169933615b1848e2e51",
+      "mask_sha256": "0f6df96629adab67a343bdb97a0646ee1fb60ec31f95d12581ee2ad5e1077335",
+      "pixels_by_class": [
+        0,
+        3382,
+        0,
+        0,
+        340650
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 465968,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 342800
+    },
+    {
+      "image_id": 133,
+      "file": "AS12-48-7056.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS12-48-7056.jpg",
+      "sha256": "d3d19339a75fd5925572d6eadac21f05c151d2aa2c24d5669df1426c11940e4b",
+      "mask_sha256": "fb02ed84263aab076aa50236b00fdd1224bad4293c90afbdceca11eef7b6e0dd",
+      "pixels_by_class": [
+        0,
+        244439,
+        0,
+        0,
+        306347
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 259214,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 546840
+    },
+    {
+      "image_id": 135,
+      "file": "AS12-48-7101.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS12-48-7101.jpg",
+      "sha256": "3e0ad8314f5980ecbc6d7011f405a5a91b063ca7111cbb6dd960f6e5e2456ae4",
+      "mask_sha256": "df850ce4a9ed969d2f440a5285f35f4f8ef14e2722028aaf61350ab3940bb4a7",
+      "pixels_by_class": [
+        0,
+        30562,
+        0,
+        0,
+        227594
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 551844,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 256077
+    },
+    {
+      "image_id": 138,
+      "file": "AS15-84-11257.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS15-84-11257.jpg",
+      "sha256": "4798afc17554342dc56cfba0c20a36cb482f9db15313cc4c6aa4f62874b67a3b",
+      "mask_sha256": "c86f1e17db92e4f185ed36f1c3b5d5d936d783fd1c0216829621dadd718ee11f",
+      "pixels_by_class": [
+        0,
+        0,
+        0,
+        0,
+        53301
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 756699,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 52728
+    },
+    {
+      "image_id": 139,
+      "file": "AS15-85-11408.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS15-85-11408.jpg",
+      "sha256": "1522330fa77830b329fa07b8c098b7860a97e4df8f3154d91b2fde3cb3892a82",
+      "mask_sha256": "3783ecb676927da5e2315632a07722b67ca553c61197f4ca494a23fd869927bb",
+      "pixels_by_class": [
+        0,
+        20612,
+        0,
+        0,
+        71684
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 717704,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 90770
+    },
+    {
+      "image_id": 140,
+      "file": "AS15-85-11409.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS15-85-11409.jpg",
+      "sha256": "d604d1dee3016ef30333817c78e9374814e863b754c37e484c37163615088de3",
+      "mask_sha256": "20902ca311eb511faa82b603355631823139a22c317d83170b52ee340590898a",
+      "pixels_by_class": [
+        0,
+        30265,
+        0,
+        0,
+        42546
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 737189,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 71516
+    },
+    {
+      "image_id": 141,
+      "file": "AS15-85-11424.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS15-85-11424.jpg",
+      "sha256": "1ab3ac8cdd8ce157967e756acb98139a1553028d60d98cdc68f09fdc2db8bd9d",
+      "mask_sha256": "197fa1a66d1aac1be4d714a7601d5e2c1ef26824d182f37b62a4926d499138de",
+      "pixels_by_class": [
+        0,
+        0,
+        0,
+        0,
+        105494
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 704506,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 104455
+    },
+    {
+      "image_id": 144,
+      "file": "AS15-85-11511.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS15-85-11511.jpg",
+      "sha256": "56e290e15cf2761f63afb795e183053b142842211dadb02db6703ff478659416",
+      "mask_sha256": "bbf483bb8890f227ae4dc5ba580bf352506c1745c3b7b30fd8db30dbd6f6629a",
+      "pixels_by_class": [
+        0,
+        12806,
+        0,
+        0,
+        160711
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 636483,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 171666
+    },
+    {
+      "image_id": 146,
+      "file": "AS15-87-11750.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS15-87-11750.jpg",
+      "sha256": "afae30e129ca054000b86ffe726688bf770c926e341cb4be6ed773192a725105",
+      "mask_sha256": "822cd97a0758d93e71e1d56cd0d81bdb4433444f62065119122cfdd9882bf6d3",
+      "pixels_by_class": [
+        0,
+        18810,
+        0,
+        0,
+        168027
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 623163,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 184897
+    },
+    {
+      "image_id": 147,
+      "file": "AS15-90-12242.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS15-90-12242.jpg",
+      "sha256": "8f9edb7dac970e171d0bb25e1a9ca49be9ce100b73cd61507ff71f7f90e4dcca",
+      "mask_sha256": "e50e812f35c2379e694c301769b55f609223993def6d653d3f83db1ed0d32886",
+      "pixels_by_class": [
+        0,
+        121884,
+        963,
+        0,
+        194563
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 492590,
+      "clipped_polygons": 2,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 314197
+    },
+    {
+      "image_id": 148,
+      "file": "AS15-90-12243.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS15-90-12243.jpg",
+      "sha256": "f846882f57b5738e8a9c1f423963e72c8b0462d8184e5ebc3c5305555a319c9f",
+      "mask_sha256": "803db46542f95b0dab155aedaa47ce9d0faeb641a62c7007e0f49117304a6ef8",
+      "pixels_by_class": [
+        0,
+        118445,
+        855,
+        0,
+        137674
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 553026,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 253423
+    },
+    {
+      "image_id": 149,
+      "file": "projectapolloarchive_21674705036_AS16-106-17402.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21674705036_AS16-106-17402.jpg",
+      "sha256": "42f747ae0fe99deb28cfa9e30177ce6d328a6eec069bc7554aa4a43f7638191f",
+      "mask_sha256": "63d6fa3146b90f54e8045bce89786d5142cc0fb4626ac6244dd0f16325c29c84",
+      "pixels_by_class": [
+        0,
+        0,
+        11227,
+        0,
+        266392
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 532381,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 276031
+    },
+    {
+      "image_id": 150,
+      "file": "projectapolloarchive_21674803836_AS16-106-17293.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21674803836_AS16-106-17293.jpg",
+      "sha256": "28a9bb7329ad99637b61edabbf587af09f673ef52aed4c612abe4f855c37a4bc",
+      "mask_sha256": "84531abcfe891ca4594dad141aebfeb3736b16479990feca033cc3f9e21dbd78",
+      "pixels_by_class": [
+        0,
+        0,
+        0,
+        0,
+        214880
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 595120,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 213767
+    },
+    {
+      "image_id": 152,
+      "file": "projectapolloarchive_21684220075_AS17-140-21499.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21684220075_AS17-140-21499.jpg",
+      "sha256": "5c40e6a0715d1697e7a1ae30bd6f2c40ae26d1f0a4406206c1b659793010fb4b",
+      "mask_sha256": "3ede040a4092682e4a33631d6882b93336902ddc9014808e5a6e76d1a993b6e1",
+      "pixels_by_class": [
+        0,
+        0,
+        90574,
+        0,
+        282892
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 436534,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 370694
+    },
+    {
+      "image_id": 154,
+      "file": "projectapolloarchive_21689408002_AS16-106-17287.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21689408002_AS16-106-17287.jpg",
+      "sha256": "f8b22c2dc81bb135a765305a8e9ab4aec556629985f75f5ac94e0097fb560be2",
+      "mask_sha256": "947772534ad40e51e9c71ccd3d4f5c491205e66e967d3ec209d9a3578ec8a72c",
+      "pixels_by_class": [
+        0,
+        0,
+        0,
+        0,
+        160935
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 649065,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 160035
+    },
+    {
+      "image_id": 156,
+      "file": "projectapolloarchive_21689414502_AS16-106-17280.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21689414502_AS16-106-17280.jpg",
+      "sha256": "8ab6caf5fe0770cce680324130131e9357504932a9ac2816453fefb2779c1272",
+      "mask_sha256": "01965bb63ef29c4c30e7f4412da3a962af2a85f7cc2ea3aa6eb765164e3c7a72",
+      "pixels_by_class": [
+        0,
+        193102,
+        46057,
+        0,
+        172276
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 398565,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 406781
+    },
+    {
+      "image_id": 158,
+      "file": "projectapolloarchive_21700841195_AS16-106-17317.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21700841195_AS16-106-17317.jpg",
+      "sha256": "6523167444b0730b7b589f0d86a2ddfb920dbc0c5d376e22ae2b1e88d8224970",
+      "mask_sha256": "37f417b4652cdb7d99e339acd5856173d58ee9ffd90e725c9386177834096f65",
+      "pixels_by_class": [
+        0,
+        0,
+        1378,
+        0,
+        248169
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 560453,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 248342
+    },
+    {
+      "image_id": 160,
+      "file": "projectapolloarchive_21700896395_AS16-106-17258.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21700896395_AS16-106-17258.jpg",
+      "sha256": "a6a309489915cc09637589715048c2e497c5ff7f50afdc61c3b9522e233347d5",
+      "mask_sha256": "2d681eddb3ba237711568228e6b5b350af7e4a3300643804b6ea290fee7f1ce2",
+      "pixels_by_class": [
+        0,
+        219079,
+        4158,
+        0,
+        133310
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 453453,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 353159
+    },
+    {
+      "image_id": 161,
+      "file": "projectapolloarchive_21700902945_AS16-106-17252.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21700902945_AS16-106-17252.jpg",
+      "sha256": "e772c44bd593cd6b695d1db017badd0768700786e7e94d1ffd8a47111a65c224",
+      "mask_sha256": "e8dc300fb684a19b8d041165c89a90917c00500894bc9fe0142262ab5c1b817e",
+      "pixels_by_class": [
+        0,
+        101503,
+        4893,
+        0,
+        179759
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 523845,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 282678
+    },
+    {
+      "image_id": 162,
+      "file": "AS15-90-12245.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS15-90-12245.jpg",
+      "sha256": "b896df657e654581bb7806149254e65c370ab5c599bbe072e246cb507d34ef5f",
+      "mask_sha256": "20a0ac0185a57e46d62396c6380ec8414971a99426f578905ca469e02f5f4c64",
+      "pixels_by_class": [
+        0,
+        73283,
+        1498,
+        0,
+        90459
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 644760,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 161640
+    },
+    {
+      "image_id": 163,
+      "file": "AS15-90-12246.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS15-90-12246.jpg",
+      "sha256": "e6a8d2da4a34e49e24e01d9acbd478bcc2ff3ba365ac1df30e6437eb6215b872",
+      "mask_sha256": "fd60493ff586d46ccf67b595f9f8e9ccde521b58da7465961e5402e63adfb47a",
+      "pixels_by_class": [
+        0,
+        0,
+        3054,
+        0,
+        92128
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 714818,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 93914
+    },
+    {
+      "image_id": 164,
+      "file": "AS16-109-17791.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS16-109-17791.jpg",
+      "sha256": "a8ba64fd7e70a7eabf9f40de6e4683ad21a8c1212c8b986c51f00ffe87eeec4b",
+      "mask_sha256": "d629ef4322f95e062098f922964aca393442a9c4457dbf6526d201f8a06ac983",
+      "pixels_by_class": [
+        0,
+        182985,
+        1079,
+        0,
+        263041
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 362895,
+      "clipped_polygons": 2,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 444229
+    },
+    {
+      "image_id": 165,
+      "file": "AS16-109-17792.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS16-109-17792.jpg",
+      "sha256": "b82b1233222d309915b57597481ae48f1bacd999aebbff7a6170ba0c3312431d",
+      "mask_sha256": "5d94147099191582326302045628214ced11db6664f4a496202278293d048375",
+      "pixels_by_class": [
+        0,
+        81871,
+        0,
+        0,
+        264014
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 464115,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 344096
+    },
+    {
+      "image_id": 166,
+      "file": "AS17-134-20446.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS17-134-20446.jpg",
+      "sha256": "5fe95bec91ccb83a69381bb0af0a47e68d666f9032f5fef4212722eb926a5ba9",
+      "mask_sha256": "d097daca8ad2e3fd2784686471dbea0abe14e74f8e1e7ffa55dcceb9122d057e",
+      "pixels_by_class": [
+        0,
+        0,
+        721,
+        0,
+        96614
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 712665,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 96304
+    },
+    {
+      "image_id": 168,
+      "file": "AS17-136-20690.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS17-136-20690.jpg",
+      "sha256": "88ba16cd99a80c6a50be8476cfbc74eafbdf788fefeb227edae061c77fc5996e",
+      "mask_sha256": "8c76ff64a48ab79dc1383377af7012b23d8e492bb613228074e98325ef68b1a2",
+      "pixels_by_class": [
+        0,
+        0,
+        2015,
+        0,
+        217740
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 590245,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 218681
+    },
+    {
+      "image_id": 170,
+      "file": "AS17-136-20692.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS17-136-20692.jpg",
+      "sha256": "62c21294386411e6df8cc04f00a7fdfb652ed8d610b9de5804098b418774b9dd",
+      "mask_sha256": "a8f6958a1ae30b90ca4f6e8f80eb8fe4623b6523fed99319afe9dc319ac18784",
+      "pixels_by_class": [
+        0,
+        0,
+        2351,
+        0,
+        119698
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 687951,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 120964
+    },
+    {
+      "image_id": 171,
+      "file": "AS17-136-20708.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS17-136-20708.jpg",
+      "sha256": "87f3e85662301f7b4e66c7a8cd518d213a1f71014db9aef02cd7c619c8ce69ce",
+      "mask_sha256": "a6c15ca290bd818453c5932cfeca3cf904b34d7ff42e1b6c84f7d076207aee16",
+      "pixels_by_class": [
+        0,
+        0,
+        3663,
+        0,
+        175433
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 630904,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 177870
+    },
+    {
+      "image_id": 172,
+      "file": "AS17-136-20709.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS17-136-20709.jpg",
+      "sha256": "bc208ff2acd93d6f0cb64ce0e6e05c5b0af99c0ae98c4e3ec227ab164a03223e",
+      "mask_sha256": "efd2129fc558d9b66e86884092da9c70a689b8c1516b7ab31ef02937143145ca",
+      "pixels_by_class": [
+        0,
+        0,
+        33381,
+        0,
+        83546
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 693073,
+      "clipped_polygons": 2,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 114988
+    },
+    {
+      "image_id": 174,
+      "file": "AS17-138-21155.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS17-138-21155.jpg",
+      "sha256": "2735795d39472123e6b22588f31cc55fa3504674372526f253bc4bb7cfb72341",
+      "mask_sha256": "e97306a8a563db20cc84bd6b5e461bafccb05d454496f870cc07f6254ea765f7",
+      "pixels_by_class": [
+        0,
+        101387,
+        13349,
+        0,
+        199
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 695065,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 112592
+    },
+    {
+      "image_id": 175,
+      "file": "AS17-138-21156.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS17-138-21156.jpg",
+      "sha256": "e7d2be36f1ff9b3a8ee3d09b5fc720fb0892abfe9bf3e1a031fc6c67414c7b59",
+      "mask_sha256": "71470f6ae1cda8f304c67cc5fede1362b73ca7790d8b06e4f89f67cb822a1f68",
+      "pixels_by_class": [
+        0,
+        241533,
+        3339,
+        0,
+        66003
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 499125,
+      "clipped_polygons": 2,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 307611
+    },
+    {
+      "image_id": 178,
+      "file": "AS17-138-21170.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS17-138-21170.jpg",
+      "sha256": "a91ecb2da117244d44d2c0a21c903d27a2e30014f46bd5d4f985ccec8bb19236",
+      "mask_sha256": "44c914fc0ef8165586a6e32aeb0382892f737b996d0c4d75fe60882a06a81f3b",
+      "pixels_by_class": [
+        0,
+        4475,
+        0,
+        0,
+        146469
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 659056,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 149785
+    },
+    {
+      "image_id": 179,
+      "file": "AS17-138-21171.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS17-138-21171.jpg",
+      "sha256": "8b5c286e7722983695fd6d6a2763fa8bc75ec7c54f2d9a54215e7f91fffa276e",
+      "mask_sha256": "b3949deb9030376703beb2b3e07469097c3226d20d394152b42433d7fba95429",
+      "pixels_by_class": [
+        0,
+        88067,
+        1676,
+        0,
+        5764
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 714493,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 93556
+    },
+    {
+      "image_id": 180,
+      "file": "AS17-138-21172.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS17-138-21172.jpg",
+      "sha256": "f846f1fea488d6506177518a4e217ac1a7cfa1c06894a36c5426430525e14c33",
+      "mask_sha256": "45bb6830f0b0fa3e021c721fefe0420b5295a598ad669d569baeda8ded58804b",
+      "pixels_by_class": [
+        0,
+        80539,
+        1516,
+        0,
+        204048
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 523897,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 283903
+    },
+    {
+      "image_id": 182,
+      "file": "projectapolloarchive_21462383368_AS17-142-21733.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21462383368_AS17-142-21733.jpg",
+      "sha256": "636d9e8eda0a91710372bdd146a1b33e0d88dc32ffb69cdb515fd1e27621d5d3",
+      "mask_sha256": "56c303356bc6f69c764496ab63f85f51045f9b45d9df05c8ef2941d36b80d30b",
+      "pixels_by_class": [
+        0,
+        0,
+        0,
+        0,
+        53551
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 756449,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 52567
+    },
+    {
+      "image_id": 183,
+      "file": "projectapolloarchive_21462512560_AS17-142-21743.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21462512560_AS17-142-21743.jpg",
+      "sha256": "d09a184f16acb4e9f6ae94a9b8d6c536263fc1e5534ca85803545bd596e93794",
+      "mask_sha256": "6c0b013cb882291997dac8fb53a4a5005b2fe756acb63e31f86038e779a06fba",
+      "pixels_by_class": [
+        0,
+        0,
+        0,
+        0,
+        24518
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 785482,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 24001
+    },
+    {
+      "image_id": 184,
+      "file": "projectapolloarchive_21496115058_AS16-112-18199.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21496115058_AS16-112-18199.jpg",
+      "sha256": "3db13b6a41be2b2f46dae53d161a09679f77380d73c66fc0349ff4431ad7bc21",
+      "mask_sha256": "ab390a975c3f1af8fd133d34d4c227df69474c8ef381294ccceb4ff926ecdfd5",
+      "pixels_by_class": [
+        0,
+        0,
+        0,
+        0,
+        174860
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 635140,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 172762
+    },
+    {
+      "image_id": 185,
+      "file": "projectapolloarchive_21496115878_AS16-112-18195.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21496115878_AS16-112-18195.jpg",
+      "sha256": "bef6ace8749ffa21550574c2909223d9ed5a9fca5eb9cc5b3b9737428212f288",
+      "mask_sha256": "79cce322156916888b47d0929d82e8dea8265eab10a52b0ea81909631e28dedf",
+      "pixels_by_class": [
+        0,
+        0,
+        0,
+        0,
+        282697
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 527303,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 280343
+    },
+    {
+      "image_id": 186,
+      "file": "projectapolloarchive_21496569438_AS17-137-20878.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21496569438_AS17-137-20878.jpg",
+      "sha256": "9c796c685c25065f7adc276765e13961b3aab156cca7da283fe9f6e7b48820f4",
+      "mask_sha256": "405ab4dc17ed6812a4b1c9fac6fa774be746f71a926075dc9c7517da729a13cd",
+      "pixels_by_class": [
+        0,
+        0,
+        0,
+        0,
+        104231
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 705769,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 102302
+    },
+    {
+      "image_id": 187,
+      "file": "projectapolloarchive_21498301019_AS17-138-21175.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21498301019_AS17-138-21175.jpg",
+      "sha256": "298e83a03fa2d25d5d11303700db2a936801db966e0294a3722299a9885b8efe",
+      "mask_sha256": "fd80242d40670fa1c7c0a1649ef15e3f645355f53bfab49a10334c878e69d8d9",
+      "pixels_by_class": [
+        0,
+        0,
+        1192,
+        0,
+        0
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 808808,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 1061
+    },
+    {
+      "image_id": 189,
+      "file": "projectapolloarchive_21498305049_AS17-138-21155.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21498305049_AS17-138-21155.jpg",
+      "sha256": "4a4f1d67263e71199e227422eb7ec91f08dced4becbaa32a7460bf5e70448201",
+      "mask_sha256": "bad3953b1cd3acade1f85dc0d77283d89041f76b8ecacfa6525d5f191bb9390f",
+      "pixels_by_class": [
+        0,
+        0,
+        7085,
+        0,
+        0
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 802915,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 6664
+    },
+    {
+      "image_id": 191,
+      "file": "projectapolloarchive_21501477339_AS15-85-11372.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21501477339_AS15-85-11372.jpg",
+      "sha256": "522911f08a109055acfe6dccdc03221286a98673ecf89feffbc34f595d513274",
+      "mask_sha256": "6336b254b1fabbe4ec0606cc3c18288bf048c7cc4aa7580f7ec0a3830b3e3798",
+      "pixels_by_class": [
+        0,
+        12908,
+        0,
+        0,
+        261485
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 535607,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 272677
+    },
+    {
+      "image_id": 192,
+      "file": "projectapolloarchive_21513992229_AS16-106-17324.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21513992229_AS16-106-17324.jpg",
+      "sha256": "0ef35152008f24f53390f05b865465a7473d5d66d0f328ffd4f40608e59981f0",
+      "mask_sha256": "eba84f6ca27248737127a584869e89ee5b8447ca25ddd7859ade32311e946be9",
+      "pixels_by_class": [
+        0,
+        0,
+        57178,
+        0,
+        263369
+      ],
+      "ambiguous_pixels": 201,
+      "unknown_pixels": 489453,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 317854
+    },
+    {
+      "image_id": 193,
+      "file": "projectapolloarchive_21514016429_AS16-106-17297.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21514016429_AS16-106-17297.jpg",
+      "sha256": "5d5ecdee7b1dd34af5883000bccaa0c1eea95577b1fbb5c94c08a52b294995eb",
+      "mask_sha256": "1153a3e5393c66eac54bf7311341a1697c115e95cccc1e5fe86dde1b0754a37a",
+      "pixels_by_class": [
+        0,
+        203834,
+        10835,
+        0,
+        153461
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 441870,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 363306
+    },
+    {
+      "image_id": 194,
+      "file": "projectapolloarchive_21061682524_AS17-137-20977.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21061682524_AS17-137-20977.jpg",
+      "sha256": "10c32093d75234ae3c974117b19039fb0dd263946555b5279e84e63b66bf615e",
+      "mask_sha256": "61fa37db355fa98bb2939263e9b87cdd617f5459aa2c610b4c9122a46914bd42",
+      "pixels_by_class": [
+        0,
+        11354,
+        5144,
+        0,
+        225917
+      ],
+      "ambiguous_pixels": 3,
+      "unknown_pixels": 567585,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 25,
+      "reliable_edge_valid_pixels": 238286
+    },
+    {
+      "image_id": 195,
+      "file": "projectapolloarchive_21062443754_AS17-138-21158.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21062443754_AS17-138-21158.jpg",
+      "sha256": "00133bc2dd6b1098c142d1a611f717a86e41ce63760f76d93062a3d58b0a126a",
+      "mask_sha256": "73e1057bf3016204de7456e82feac956e06eddd803ad93f574b498fdcf128281",
+      "pixels_by_class": [
+        0,
+        221107,
+        24723,
+        0,
+        0
+      ],
+      "ambiguous_pixels": 2456,
+      "unknown_pixels": 564170,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 242875
+    },
+    {
+      "image_id": 196,
+      "file": "projectapolloarchive_21062463504_AS17-138-21061.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21062463504_AS17-138-21061.jpg",
+      "sha256": "88db44d990c2753436ca82a620ab226938eab6ab8801c09c1d4103d367d45ecb",
+      "mask_sha256": "b10df1daa5ba30cd811a499f753ef76e420af633ae55fda932f38af2ea90a624",
+      "pixels_by_class": [
+        0,
+        29328,
+        0,
+        0,
+        118174
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 662498,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 143852
+    },
+    {
+      "image_id": 197,
+      "file": "projectapolloarchive_21063398843_AS17-137-20933.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21063398843_AS17-137-20933.jpg",
+      "sha256": "bdf56742bf1bdddabc43a529da359be0273268ab7675e29fe17708d5bccc386c",
+      "mask_sha256": "6d63d8309f8ceb49e9c5d295e970ee0385cc45f0ae2546ac5f043f63a29bfef7",
+      "pixels_by_class": [
+        0,
+        8825,
+        8968,
+        0,
+        38265
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 753942,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 52802
+    },
+    {
+      "image_id": 198,
+      "file": "projectapolloarchive_21065341363_AS16-108-17736.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21065341363_AS16-108-17736.jpg",
+      "sha256": "7273ac360f67370171411489811d44b7b2da10b21d70221cd0f799eecf0a9287",
+      "mask_sha256": "56e4204aebe9ffee56d1e201247b7eb0ba5926731ed839e71edea96348e808e5",
+      "pixels_by_class": [
+        0,
+        18677,
+        3187,
+        0,
+        200109
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 588027,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 218087
+    },
+    {
+      "image_id": 199,
+      "file": "projectapolloarchive_21065343593_AS16-108-17721.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21065343593_AS16-108-17721.jpg",
+      "sha256": "d6bb67c2790fc5ead4000fe6b3bb2928ee8124119d550ee8e6ce760c45b1ca74",
+      "mask_sha256": "ea8600e40790aca663b4a569829b46d80c9b98712262540f6c8c337ca128e381",
+      "pixels_by_class": [
+        0,
+        14006,
+        0,
+        0,
+        212561
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 583433,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 223510
+    },
+    {
+      "image_id": 201,
+      "file": "projectapolloarchive_21065487764_AS15-85-11510.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21065487764_AS15-85-11510.jpg",
+      "sha256": "d094dcf3bc7424909cb263af09c90d7a5f755bec8371afe89adef0cc7fc14649",
+      "mask_sha256": "3e7de5c9367a6d55a6aab018bb5d146a973b881c5b49983b641165f1f9702312",
+      "pixels_by_class": [
+        0,
+        31479,
+        0,
+        0,
+        110378
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 668143,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 137039
+    },
+    {
+      "image_id": 202,
+      "file": "projectapolloarchive_21065489694_AS15-85-11509.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21065489694_AS15-85-11509.jpg",
+      "sha256": "61bca7e07a88fcc405c7379f0436380e1143d2196d886653e15b2c9eaaafad88",
+      "mask_sha256": "0434670865082bb706a69bd37e9c6ce93f068df5b16cfff32085e421f8096f6b",
+      "pixels_by_class": [
+        0,
+        30098,
+        0,
+        0,
+        126868
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 653034,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 153089
+    },
+    {
+      "image_id": 203,
+      "file": "projectapolloarchive_21065532894_AS15-85-11461.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21065532894_AS15-85-11461.jpg",
+      "sha256": "99024de230a18b9a3d30ff0e3bbc9f316d98957c85013729371d76dca5a03a86",
+      "mask_sha256": "18013efdde5122b632e4053195929ae9749375560bac397e5732690294b0ea6e",
+      "pixels_by_class": [
+        0,
+        69688,
+        0,
+        0,
+        78321
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 661991,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 143267
+    },
+    {
+      "image_id": 204,
+      "file": "projectapolloarchive_21065534894_AS15-85-11459.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21065534894_AS15-85-11459.jpg",
+      "sha256": "be4927d90ff931046bd94bfb11fe6b47832bd31f28d584433ee8e05495b759ea",
+      "mask_sha256": "95784c9e97e73573af53f968d6419af80c0eab7a7e361b1b352cce8db6843ae8",
+      "pixels_by_class": [
+        0,
+        6370,
+        0,
+        0,
+        155959
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 647671,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 159510
+    },
+    {
+      "image_id": 205,
+      "file": "projectapolloarchive_21065560144_AS15-85-11428.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21065560144_AS15-85-11428.jpg",
+      "sha256": "44a52a54313d891d46e33d0d327bc0e1a41d145ea8649be53340a00cf9a6063b",
+      "mask_sha256": "5a8e9507c4d54e819720c5152fb8465657d6239e56af67f87b35ac4adb03d08a",
+      "pixels_by_class": [
+        0,
+        51821,
+        0,
+        0,
+        33698
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 724481,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 81605
+    },
+    {
+      "image_id": 206,
+      "file": "projectapolloarchive_21078143024_AS16-106-17316.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21078143024_AS16-106-17316.jpg",
+      "sha256": "f59ee17d0d7d6376d34dfe08756185d49f0083ad644c71476ce42606488de3be",
+      "mask_sha256": "7347373026add8afb3d0882c035f163ae74e2d0f5392ba4ae7184bc20996d7d4",
+      "pixels_by_class": [
+        0,
+        0,
+        3580,
+        0,
+        193151
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 613269,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 194144
+    },
+    {
+      "image_id": 207,
+      "file": "projectapolloarchive_21078144794_AS16-106-17314.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21078144794_AS16-106-17314.jpg",
+      "sha256": "ac575077e4f95f5ebd8cb398c103f25f9bffa97355835ef6e6df2846a0ab8f43",
+      "mask_sha256": "c319ec578cea01d2619d80f3d30b6dbe8070e135e8e5338d0135505a36ebf3c2",
+      "pixels_by_class": [
+        0,
+        112608,
+        4516,
+        0,
+        177496
+      ],
+      "ambiguous_pixels": 37,
+      "unknown_pixels": 515380,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 47,
+      "reliable_edge_valid_pixels": 290290
+    },
+    {
+      "image_id": 208,
+      "file": "projectapolloarchive_21078212384_AS16-106-17243.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21078212384_AS16-106-17243.jpg",
+      "sha256": "97e4bea97e16f4a96bfeceddc40e51b008c5f113e4d0b86e28482e771862d847",
+      "mask_sha256": "68596eb19e92809e400b4fe28360bedb30609d8c6b7b263d561f98ec45d243b3",
+      "pixels_by_class": [
+        0,
+        178898,
+        6068,
+        0,
+        204026
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 421008,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 384120
+    },
+    {
+      "image_id": 209,
+      "file": "projectapolloarchive_21078214434_AS16-106-17241.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21078214434_AS16-106-17241.jpg",
+      "sha256": "f3b5f4bc2c455b25d3d9983ab368fba6fc30548d52ffe22c9f622372355e7702",
+      "mask_sha256": "ec81e3c940ccecdee568916ee8b1c077b42ae72a4447122856b4a6f627d89752",
+      "pixels_by_class": [
+        0,
+        214367,
+        1716,
+        0,
+        189652
+      ],
+      "ambiguous_pixels": 9,
+      "unknown_pixels": 404265,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 30,
+      "reliable_edge_valid_pixels": 401143
+    },
+    {
+      "image_id": 210,
+      "file": "projectapolloarchive_21079854563_AS16-106-17315.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21079854563_AS16-106-17315.jpg",
+      "sha256": "7cf2a40f5caabaf1058f3bd902c1d8bbe54143dd0512186a5a906e256946563e",
+      "mask_sha256": "891f3ef9f43bcd102439f0ec33b79560b492b5192374332e635a75b33ecfff90",
+      "pixels_by_class": [
+        0,
+        82751,
+        6152,
+        0,
+        175426
+      ],
+      "ambiguous_pixels": 74,
+      "unknown_pixels": 545671,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 94,
+      "reliable_edge_valid_pixels": 260249
+    },
+    {
+      "image_id": 211,
+      "file": "projectapolloarchive_21079864883_AS16-106-17303.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21079864883_AS16-106-17303.jpg",
+      "sha256": "db91ebd8cbf55ab68a10918ba7eafc6bff96aa2072d0504b84b69622a103d2e8",
+      "mask_sha256": "30ed499d70aa10c5da84d3ad46338c51ea8b696132cb4952c757f3f97007718b",
+      "pixels_by_class": [
+        0,
+        121105,
+        67364,
+        0,
+        103881
+      ],
+      "ambiguous_pixels": 84,
+      "unknown_pixels": 517650,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 85,
+      "reliable_edge_valid_pixels": 286295
+    },
+    {
+      "image_id": 212,
+      "file": "projectapolloarchive_21079867593_AS16-106-17299.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21079867593_AS16-106-17299.jpg",
+      "sha256": "fe96e1ea4f0c516ab7e3630c1daac90c3eaaf115f3acf2aea811e5d3a2df569c",
+      "mask_sha256": "61eb65d2b2f0e1c55d55ebf227888355d81d18de191e4fd1984b88137d1df0de",
+      "pixels_by_class": [
+        0,
+        204634,
+        41721,
+        0,
+        128731
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 434914,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 369083
+    },
+    {
+      "image_id": 213,
+      "file": "projectapolloarchive_21490032288_AS16-107-17422.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21490032288_AS16-107-17422.jpg",
+      "sha256": "e9cac8eb799bff83fd61800900b93fd9a10ef7b1e9b6366b38fe6ebc796d9fbe",
+      "mask_sha256": "1f2f05a26461818c4ea1486e43f30ee39716a837b8475e22627f696e617a9140",
+      "pixels_by_class": [
+        0,
+        0,
+        818,
+        0,
+        284287
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 524895,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 282612
+    },
+    {
+      "image_id": 214,
+      "file": "projectapolloarchive_21658303786_AS17-137-21023.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21658303786_AS17-137-21023.jpg",
+      "sha256": "bff62bc5252e3541c1c06e7c2a8425b294372875ad26a973f5528e72d5675805",
+      "mask_sha256": "58ce61aaa380bf1829f86ce5e0ce0eefa50906be162fe50bd13a53889adcc622",
+      "pixels_by_class": [
+        0,
+        0,
+        3001,
+        0,
+        312254
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 494745,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 312506
+    },
+    {
+      "image_id": 215,
+      "file": "projectapolloarchive_21658304866_AS17-137-21017.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21658304866_AS17-137-21017.jpg",
+      "sha256": "4d5c1a3cf89132dff27e5466a24ef99c90d8dbc4199a0cacc18059964494102d",
+      "mask_sha256": "b39f1bb1a0054ea1efd005e7dd95875252964995332ed9819371df521c73af85",
+      "pixels_by_class": [
+        0,
+        26145,
+        0,
+        0,
+        222634
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 561221,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 244767
+    },
+    {
+      "image_id": 218,
+      "file": "projectapolloarchive_21703904495_AS17-136-20770.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21703904495_AS17-136-20770.jpg",
+      "sha256": "eafc064b50ce20654a4ca83683991e935b12704c05bd8d4b9e317349a8e962fe",
+      "mask_sha256": "f71be2f0f0e9f0d7223753e56259272d96bc8b2e127715cb5b0a613b015c09cf",
+      "pixels_by_class": [
+        0,
+        3182,
+        0,
+        0,
+        356499
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 450319,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 357710
+    },
+    {
+      "image_id": 220,
+      "file": "projectapolloarchive_21708556281_AS14-64-9104.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21708556281_AS14-64-9104.jpg",
+      "sha256": "1dc2be6379f771a2bcc544df8ce745ba1bb5910f5de11ef740df927023820c5e",
+      "mask_sha256": "f2987a1ddbf363f13cea1cb50c6302fd7cbda3f82ef0bcfd4ad9541ec018b9ff",
+      "pixels_by_class": [
+        0,
+        0,
+        19897,
+        0,
+        350024
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 440079,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 366451
+    },
+    {
+      "image_id": 221,
+      "file": "projectapolloarchive_21708579471_AS14-64-9078.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21708579471_AS14-64-9078.jpg",
+      "sha256": "ff7f645c18bff7283f007e7b84aed8dd2ea9ab7485c24eb448137de3c927fe16",
+      "mask_sha256": "ea9463b20b56ab1ba6300fd4e4d65cc57856ef4c0a901198aff59ce2b8e6c93f",
+      "pixels_by_class": [
+        0,
+        67926,
+        0,
+        0,
+        400621
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 341453,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 464080
+    },
+    {
+      "image_id": 222,
+      "file": "projectapolloarchive_21708969051_AS16-110-18002.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21708969051_AS16-110-18002.jpg",
+      "sha256": "09d197996a75123886ea4ddff622087f1335dfa5b90939574dab2572f6e55d43",
+      "mask_sha256": "48f5a65f16f9a8270c81d716c31060973919787673ab914f10f3023d53f31e0d",
+      "pixels_by_class": [
+        0,
+        13180,
+        0,
+        0,
+        242512
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 554308,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 253003
+    },
+    {
+      "image_id": 223,
+      "file": "projectapolloarchive_21710088201_AS16-106-17302.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21710088201_AS16-106-17302.jpg",
+      "sha256": "829c3ed9d4a5d730e4f3dbc28bfac3315692add1e9c5b679de28dc18d09c0a4b",
+      "mask_sha256": "1a3af398ace1535e73b2c7b1f740130e57dfd3df5b44f490388e4bfa19632d0b",
+      "pixels_by_class": [
+        0,
+        156787,
+        58594,
+        0,
+        136241
+      ],
+      "ambiguous_pixels": 67,
+      "unknown_pixels": 458378,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 185,
+      "reliable_edge_valid_pixels": 346529
+    },
+    {
+      "image_id": 225,
+      "file": "projectapolloarchive_21710112151_AS16-106-17275.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21710112151_AS16-106-17275.jpg",
+      "sha256": "6fced8cfc3fec469eb37572d74ffd975f980585738080c06db9881ee72492b9d",
+      "mask_sha256": "b96c5b26af7c1a169a3458870b1b0f10433ea3c15b0ea5ec12c59b9182986336",
+      "pixels_by_class": [
+        0,
+        71133,
+        23375,
+        0,
+        153280
+      ],
+      "ambiguous_pixels": 53,
+      "unknown_pixels": 562212,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 31,
+      "reliable_edge_valid_pixels": 242205
+    },
+    {
+      "image_id": 226,
+      "file": "projectapolloarchive_21710126781_AS16-106-17260.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21710126781_AS16-106-17260.jpg",
+      "sha256": "895bc57d6897c66bbbad2f5736648de2a2fca5d9d01cb026d38c4fc51ecfceab",
+      "mask_sha256": "b20b6cc24230bfca4fde13f73aa51c195c8e1d6e364dbd4097364c3e2e5b63f0",
+      "pixels_by_class": [
+        0,
+        199650,
+        21232,
+        0,
+        121956
+      ],
+      "ambiguous_pixels": 134,
+      "unknown_pixels": 467162,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 144,
+      "reliable_edge_valid_pixels": 337012
+    },
+    {
+      "image_id": 229,
+      "file": "AS17-138-21154.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS17-138-21154.jpg",
+      "sha256": "0b3dee2ec83ed19c771fb7caa60c395faab0bbcac21d1c0e7056bd86e95b9606",
+      "mask_sha256": "237092555b0c2e5625e3a8760c98588ab66ce98cab23190c8f8798f1158b5ca2",
+      "pixels_by_class": [
+        0,
+        0,
+        5630,
+        0,
+        85959
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 718411,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 89098
+    },
+    {
+      "image_id": 230,
+      "file": "AS17-138-21177.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS17-138-21177.jpg",
+      "sha256": "8c843fb2f0993e136a64999104b01c5caaae6ed637eb64bfab1b58efe10e6042",
+      "mask_sha256": "34d1e0a34c9d5e5b235ddae3059f113110101ed084fa9ee454e61cbce5815270",
+      "pixels_by_class": [
+        0,
+        87863,
+        0,
+        0,
+        281206
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 440931,
+      "clipped_polygons": 2,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 365811
+    },
+    {
+      "image_id": 231,
+      "file": "AS17-140-21505.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS17-140-21505.jpg",
+      "sha256": "ef0067385894fbb1c200da4c33a308e23213c517f687df930bde152578c2c29b",
+      "mask_sha256": "c4dbcb38fea24959de0d93be32c48cf7fd9bb116588c10239599d24578c50ddf",
+      "pixels_by_class": [
+        0,
+        0,
+        3359,
+        0,
+        277844
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 528797,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 278457
+    },
+    {
+      "image_id": 234,
+      "file": "AS17-145-22159.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS17-145-22159.jpg",
+      "sha256": "2c2c05868feed448da956dab133d6c170ccbb80c2091a5d3bb5b6bc3c5a29047",
+      "mask_sha256": "32b83eaab92403a9dc13342fa85a8d796e61283f9ad65e7171430be575ec9f89",
+      "pixels_by_class": [
+        0,
+        0,
+        174289,
+        0,
+        194370
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 441341,
+      "clipped_polygons": 2,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 363050
+    },
+    {
+      "image_id": 235,
+      "file": "AS17-145-22164.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS17-145-22164.jpg",
+      "sha256": "c70e63eff8fd723cf4c4c25b07a9c5146bbc523d2755c4f46e7d7d4bbe125377",
+      "mask_sha256": "7ea7986ca9d6610866d48715266ac02c202414d5726451422b57e02fb4dec6e5",
+      "pixels_by_class": [
+        0,
+        0,
+        108167,
+        0,
+        210781
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 491052,
+      "clipped_polygons": 2,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 313143
+    },
+    {
+      "image_id": 236,
+      "file": "AS17-145-22167.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS17-145-22167.jpg",
+      "sha256": "b16553fdff6eb73e30c8185af804c2ee91222c177d97e65bfa696a997857ba64",
+      "mask_sha256": "1b997b2e771a9a5fb9c5e058c244b84edcaca2c65ef247bb7b0c2b7bbb42393b",
+      "pixels_by_class": [
+        0,
+        0,
+        91520,
+        0,
+        200627
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 517853,
+      "clipped_polygons": 3,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 288092
+    },
+    {
+      "image_id": 237,
+      "file": "AS17-145-22168.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS17-145-22168.jpg",
+      "sha256": "4bc9d8bbe175dbab640ea54b15c5499767e391b7ca15e29b156f335856980dbe",
+      "mask_sha256": "802ddd04e0ddc4c07a2cf4c148ed6c44e210509746d120507490fe570cdb0419",
+      "pixels_by_class": [
+        0,
+        0,
+        1741,
+        0,
+        136869
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 671390,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 136396
+    },
+    {
+      "image_id": 238,
+      "file": "AS17-145-22169.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\AS17-145-22169.jpg",
+      "sha256": "966d7824380dc940b39c55e70004b38ddc719c38709e428d68491cce62f7ed61",
+      "mask_sha256": "e37b8e8a793acab40716aeac22bfec7350961c5459c1daa24c06fff0744834fa",
+      "pixels_by_class": [
+        0,
+        0,
+        9673,
+        0,
+        93031
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 707296,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 100876
+    },
+    {
+      "image_id": 239,
+      "file": "projectapolloarchive_21027551004_AS17-142-21735.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21027551004_AS17-142-21735.jpg",
+      "sha256": "f7e90175dd5d15ef5831f73b7cbaca759cfeaafe842fe2c2dc5f8e3e2caa4a35",
+      "mask_sha256": "481839212004bc88ca505fb796d992ef56ca52335d64ced3b727c22cfc5dc912",
+      "pixels_by_class": [
+        0,
+        0,
+        0,
+        0,
+        151288
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 658712,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 149196
+    },
+    {
+      "image_id": 240,
+      "file": "projectapolloarchive_21027771304_AS17-142-21742.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21027771304_AS17-142-21742.jpg",
+      "sha256": "01e862d34f639fd843b97f5c05b4d93a10efbed947ccd799aa39e204f3b391e8",
+      "mask_sha256": "10eae4b63f88c26f48c482efd22b0e0042e7a149b9358cd16998828d1f4dfcd3",
+      "pixels_by_class": [
+        0,
+        0,
+        0,
+        0,
+        119926
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 690074,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 117986
+    },
+    {
+      "image_id": 241,
+      "file": "projectapolloarchive_21027773774_AS17-142-21740.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21027773774_AS17-142-21740.jpg",
+      "sha256": "1f8616b0758283f837cea0c0f88fdd5e87fd025fa59a55eff03746c592885566",
+      "mask_sha256": "a5f65a596ae29a2f7cdcadea6a0f786fa509fbb2abf9078d2579734309406e49",
+      "pixels_by_class": [
+        0,
+        0,
+        0,
+        0,
+        160347
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 649653,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 158262
+    },
+    {
+      "image_id": 242,
+      "file": "projectapolloarchive_21027825064_AS17-142-21818.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21027825064_AS17-142-21818.jpg",
+      "sha256": "2f622d3fd9e2c8cb340ad96dd0416b5ef20d00af1f8216dad2f58c19e00a681d",
+      "mask_sha256": "a1deb32a77f73bfe1eb5ce250ff621df97d31e145c62703eb98454e9cc145bb7",
+      "pixels_by_class": [
+        0,
+        0,
+        0,
+        0,
+        145084
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 664916,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 142924
+    },
+    {
+      "image_id": 243,
+      "file": "projectapolloarchive_21059118213_AS17-134-20415.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21059118213_AS17-134-20415.jpg",
+      "sha256": "2fbdb676640ab20a724df00f374a87e75a9e4a796894a64eeb072ba31ba1dd53",
+      "mask_sha256": "159ea14baa4173b7928b0a0c108239470f335ae43b0863f3004b46ddca96542c",
+      "pixels_by_class": [
+        0,
+        0,
+        0,
+        0,
+        291284
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 518716,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 288920
+    },
+    {
+      "image_id": 244,
+      "file": "projectapolloarchive_21060902664_AS14-66-9298.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21060902664_AS14-66-9298.jpg",
+      "sha256": "32434d06263c1605eb71c9cfd77ae70f0cff04b9e577189dab236884e07ca022",
+      "mask_sha256": "4f31c8c01da0391299a222a1429ef8ee8ef6d64812239de0543705de8d55a4c9",
+      "pixels_by_class": [
+        0,
+        0,
+        0,
+        0,
+        465051
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 344949,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 462763
+    },
+    {
+      "image_id": 245,
+      "file": "projectapolloarchive_21060919904_AS14-66-9243.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21060919904_AS14-66-9243.jpg",
+      "sha256": "2addf4bd5cf4e6a62b3315a86199b12b0f9ae888955709343c477a47e569d1d0",
+      "mask_sha256": "0cc83f8b354e4d5787d91e988ef21fa3ac2cdad523d0a2c59bd6d870ddf8824a",
+      "pixels_by_class": [
+        0,
+        0,
+        0,
+        0,
+        350049
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 459951,
+      "clipped_polygons": 1,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 347606
+    },
+    {
+      "image_id": 246,
+      "file": "projectapolloarchive_21061136634_AS16-109-17836.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21061136634_AS16-109-17836.jpg",
+      "sha256": "492ef42ea6f981a0727266c5224ab301cb35ef76f2c925f7fa5dc3643f86d6b1",
+      "mask_sha256": "1d119f348d1f5541f5978c761d0ecb23934743b6a8a72767492574f97851d33c",
+      "pixels_by_class": [
+        0,
+        0,
+        0,
+        0,
+        166738
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 643262,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 164646
+    },
+    {
+      "image_id": 249,
+      "file": "projectapolloarchive_21061267444_AS16-112-18221.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21061267444_AS16-112-18221.jpg",
+      "sha256": "fd3996d4d1b0bb8257e1bdccfa14b455938dd627b127af7442196c35307795a9",
+      "mask_sha256": "adb747da71da30523d1009109f2bda9242d7ea06a7f35f14aa4fd1c50d48440c",
+      "pixels_by_class": [
+        0,
+        4607,
+        0,
+        0,
+        119262
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 686131,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 121613
+    },
+    {
+      "image_id": 250,
+      "file": "projectapolloarchive_21495786370_AS15-84-11242.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21495786370_AS15-84-11242.jpg",
+      "sha256": "4810a33f0f40fbb81258b30fbaf2e03246c4cd970fe50581047edf9e4102ed71",
+      "mask_sha256": "c9c1faf4ade531d2bc3f07a44a1bd1edd3594569a215a2408bd9875a3d61381f",
+      "pixels_by_class": [
+        0,
+        11565,
+        0,
+        0,
+        254118
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 544317,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 262526
+    },
+    {
+      "image_id": 251,
+      "file": "projectapolloarchive_21495787520_AS15-84-11237.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21495787520_AS15-84-11237.jpg",
+      "sha256": "6df28f2cdead1f4617d59156e0197be4778e34772f209819bae498aa0452add3",
+      "mask_sha256": "129cb7912411955a27caee021aa96e1cba14f4d76dfa4df1c257d7536853b7bc",
+      "pixels_by_class": [
+        0,
+        0,
+        7095,
+        0,
+        0
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 802905,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 6486
+    },
+    {
+      "image_id": 252,
+      "file": "projectapolloarchive_21495863118_AS15-84-11245.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21495863118_AS15-84-11245.jpg",
+      "sha256": "ca58e78c04d6295035019e432110467af9eafc5d211fbbd811a30978ef0c3967",
+      "mask_sha256": "4fb7f8307b904275f3079c246bf87e5ceeea1a224f7eb8a282b189948a8265df",
+      "pixels_by_class": [
+        0,
+        0,
+        0,
+        0,
+        179523
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 630477,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 177424
+    },
+    {
+      "image_id": 253,
+      "file": "projectapolloarchive_21495901500_AS16-109-17782.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21495901500_AS16-109-17782.jpg",
+      "sha256": "15887efb2c03d666cd24b0a20d692cf19cdb24912adff320a87c7d1d50f1e6ef",
+      "mask_sha256": "1e7cd76b80a88574aefc4ef93f53ae4f2ab073ba196bc6688c5c0dae216c6a96",
+      "pixels_by_class": [
+        0,
+        0,
+        0,
+        0,
+        311601
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 498399,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 309156
+    },
+    {
+      "image_id": 254,
+      "file": "projectapolloarchive_21496018300_AS16-112-18209.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21496018300_AS16-112-18209.jpg",
+      "sha256": "42847bdb152b8bc83446f25ac540cc39e19369f9ed0b8d970a5a8702edca6357",
+      "mask_sha256": "597b684e1b357613826a65b189d93b70d67d7255430a3f2e664def08d6c01dce",
+      "pixels_by_class": [
+        0,
+        0,
+        0,
+        0,
+        309775
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 500225,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 307325
+    },
+    {
+      "image_id": 255,
+      "file": "projectapolloarchive_21496019240_AS16-112-18201.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21496019240_AS16-112-18201.jpg",
+      "sha256": "9d8100d687d1283273b648ebf9bbf5bd36e4a54ba1fb857fa8b6e77311550a15",
+      "mask_sha256": "213c753c3e2909fae32fd23b33629b24c82ceb05e073d31c7fa792571f654a93",
+      "pixels_by_class": [
+        0,
+        0,
+        0,
+        0,
+        266249
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 543751,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 263920
+    },
+    {
+      "image_id": 257,
+      "file": "projectapolloarchive_21514024699_AS16-106-17288.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21514024699_AS16-106-17288.jpg",
+      "sha256": "50ddbcaf4ff319af5fd1968ee5b53cd83edd73a98ff9f4d05c6a244aecbfa8fa",
+      "mask_sha256": "4347125dc85c5483190ed0f687e1c76d53cb2b8ae3745d4e60a976903e7d8e55",
+      "pixels_by_class": [
+        0,
+        0,
+        2419,
+        0,
+        138112
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 669469,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 138226
+    },
+    {
+      "image_id": 258,
+      "file": "projectapolloarchive_21514044149_AS16-106-17268.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21514044149_AS16-106-17268.jpg",
+      "sha256": "e27e1840acf07b631547df468ebe0f24a79fad110c4d07016cbaa1f75e7bfee3",
+      "mask_sha256": "dcd4f4cf830fe5108ed09caf63223aa6af7440b9930ae9b1a27360a38230057a",
+      "pixels_by_class": [
+        0,
+        183737,
+        3926,
+        0,
+        122689
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 499648,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 305908
+    },
+    {
+      "image_id": 259,
+      "file": "projectapolloarchive_21658298346_AS17-137-21018.jpg",
+      "source": "D:\\Projects\\Sim2real\\data\\real_data\\kaggle_dataset\\test\\train\\images\\projectapolloarchive_21658298346_AS17-137-21018.jpg",
+      "sha256": "f65b2c1e49344f161141dcf78396db4ce3c719bb099a4842196f294bcf99864b",
+      "mask_sha256": "ec495ccfc18f7cf0e6d583bf7e56131ae6415ace9873d1a148790a5a457d645e",
+      "pixels_by_class": [
+        0,
+        0,
+        0,
+        0,
+        260110
+      ],
+      "ambiguous_pixels": 0,
+      "unknown_pixels": 549890,
+      "clipped_polygons": 0,
+      "reliable_edge_positive_pixels": 0,
+      "reliable_edge_valid_pixels": 257877
+    }
+  ]
+}

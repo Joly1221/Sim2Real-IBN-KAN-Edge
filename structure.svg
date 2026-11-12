@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1140" height="1100" viewBox="0 0 1140 1100" role="img" aria-labelledby="title desc">
+  <title id="title">YOLO26n-sem 浅层 C3k2 的 IBN 修改位置和张量大小</title>
+  <desc id="desc">仅将 model2.cv1 的 BN32 替换为前16通道 IN 和后16通道 BN。模型2 输入32乘256乘256，输出64乘256乘256。颈部 P3 仍为64乘128乘128。完整模型只用仿真数据联合训练。</desc>
+  <!-- 【新增图示 IBN-06】与 ibn_backbone.py 的单处替换保持一致。 -->
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#526278"/></marker>
+    <style>
+      text { font-family: 'Microsoft YaHei', 'Segoe UI', sans-serif; fill: #183047; }
+      .title { font-size: 28px; font-weight: 700; }
+      .subtitle { font-size: 16px; fill: #526278; }
+      .label { font-size: 18px; font-weight: 600; }
+      .small { font-size: 15px; }
+      .shape { font-size: 16px; fill: #526278; font-family: Consolas, monospace; }
+      .box { fill: #fff; stroke: #b8c6d3; stroke-width: 1.6; }
+      .wire { fill: none; stroke: #526278; stroke-width: 2; marker-end: url(#arrow); }
+      .new { fill: #fff2df; stroke: #d98124; stroke-width: 2; }
+      .note { fill: #fff; stroke: #cbd7e1; stroke-width: 1; }
+    </style>
+  </defs>
+  <rect width="1140" height="1100" fill="#f3f6fa"/>
+  <text x="50" y="55" class="title">在 P3 之前改造：浅层 C3k2 引入 IBN</text>
+  <text x="50" y="86" class="subtitle">从原始仿真 best.pt 出发 · 只替换一处 BN · 以下尺寸对应 1024 × 1024 输入</text>
+  <rect x="50" y="115" width="1040" height="115" rx="15" class="note"/>
+  <text x="75" y="147" class="label">整体位置</text>
+  <text x="75" y="180" class="small">输入 → 原下采样层 →</text>
+  <rect x="265" y="157" width="216" height="41" rx="7" class="new"/>
+  <text x="282" y="184" class="label">model[2]：C3k2 + IBN</text>
+  <text x="492" y="183" class="small">→ 后续骨干 / 颈部 → P3（model[16]）→ 五类分割头</text>
+  <text x="75" y="213" class="subtitle">此次替换位于浅层 1/4 分辨率处；原 P3 为 1/8 分辨率。</text>
+
+  <rect x="50" y="255" width="700" height="705" rx="15" class="note"/>
+  <text x="75" y="291" class="label">展开 model[2]：浅层 C3k2</text>
+  <rect x="215" y="312" width="360" height="58" rx="9" class="box"/>
+  <text x="395" y="336" text-anchor="middle" class="label">输入特征</text>
+  <text x="395" y="358" text-anchor="middle" class="shape">[B, 32, 256, 256]</text>
+  <path d="M395 370V391" class="wire"/>
+  <rect x="215" y="395" width="360" height="48" rx="9" class="box"/>
+  <text x="395" y="425" text-anchor="middle" class="label">cv1：1×1 Conv，32 → 32</text>
+  <path d="M395 443V463" class="wire"/>
+  <rect x="95" y="468" width="600" height="180" rx="12" class="new"/>
+  <text x="120" y="497" class="label">修改：BN(32) → IBN(32)</text>
+  <rect x="120" y="515" width="245" height="72" rx="8" fill="#ffdfb4" stroke="#d98124"/>
+  <text x="242" y="542" text-anchor="middle" class="label">前 16 通道 → IN</text>
+  <text x="242" y="570" text-anchor="middle" class="shape">[B, 16, 256, 256]</text>
+  <rect x="425" y="515" width="245" height="72" rx="8" fill="#e7eff7" stroke="#829cb5"/>
+  <text x="547" y="542" text-anchor="middle" class="label">后 16 通道 → BN</text>
+  <text x="547" y="570" text-anchor="middle" class="shape">[B, 16, 256, 256]</text>
+  <text x="395" y="623" text-anchor="middle" class="small">按原顺序拼接 → [B, 32, 256, 256] → SiLU</text>
+  <path d="M395 648V671" class="wire"/>
+  <text x="395" y="695" text-anchor="middle" class="small">原 C3k2 按通道拆为 A、B，各 16 通道</text>
+  <path d="M345 704H190V824H245" class="wire"/>
+  <text x="145" y="762" class="label">A</text>
+  <path d="M440 704H605V824H545" class="wire"/>
+  <text x="622" y="762" class="label">B</text>
+  <path d="M440 704V719" class="wire"/>
+  <rect x="255" y="724" width="290" height="58" rx="8" class="box"/>
+  <text x="400" y="749" text-anchor="middle" class="label">B → 原 Bottleneck</text>
+  <text x="400" y="772" text-anchor="middle" class="small">输出 C：16 通道</text>
+  <path d="M400 782V798" class="wire"/>
+  <rect x="250" y="803" width="290" height="43" rx="8" class="box"/>
+  <text x="395" y="831" text-anchor="middle" class="label">Concat(A, B, C)：48 通道</text>
+  <path d="M395 846V863" class="wire"/>
+  <rect x="160" y="868" width="470" height="62" rx="8" class="box"/>
+  <text x="395" y="894" text-anchor="middle" class="label">原 cv2：1×1 Conv 48→64 / BN / SiLU</text>
+  <text x="395" y="918" text-anchor="middle" class="shape">输出 [B, 64, 256, 256]</text>
+
+  <rect x="775" y="255" width="315" height="222" rx="15" class="note"/>
+  <text x="800" y="291" class="label">两条归一化分支</text>
+  <text x="800" y="327" class="small">IN：每张图、每个通道独立统计</text>
+  <text x="800" y="355" class="small">尝试减弱对外观统计的依赖</text>
+  <text x="800" y="398" class="small">BN：训练中使用仿真批统计</text>
+  <text x="800" y="426" class="small">预测中使用固定运行统计</text>
+  <text x="800" y="454" class="subtitle">分支作用是假设，需要实验验证。</text>
+  <rect x="775" y="497" width="315" height="223" rx="15" class="note"/>
+  <text x="800" y="534" class="label">结构与参数</text>
+  <text x="800" y="571" class="small">IN / BN 各占 50% 通道</text>
+  <text x="800" y="602" class="small">通道总数、高宽均保持不变</text>
+  <text x="800" y="633" class="small">原卷积、SiLU 与后续结构保留</text>
+  <text x="800" y="664" class="small">完整模型：1,631,082 个参数</text>
+  <text x="800" y="695" class="small">没有叠加 KAN 或边缘分支</text>
+  <rect x="775" y="740" width="315" height="220" rx="15" class="note"/>
+  <text x="800" y="777" class="label">训练方式</text>
+  <text x="800" y="814" class="small">仅用仿真图像和标签</text>
+  <text x="800" y="845" class="small">骨干、颈部、分类头一起更新</text>
+  <text x="800" y="876" class="small">在仿真验证集上选择权重</text>
+  <text x="800" y="907" class="small">真实图像只用于预测和评价</text>
+  <text x="800" y="938" class="subtitle">当前交付：初始化模型，未正式训练</text>
+
+  <rect x="50" y="985" width="1040" height="72" rx="12" fill="#e4edf5"/>
+  <text x="75" y="1014" class="label">后续 P3 的形状不变：[B, 64, 128, 128]</text>
+  <text x="75" y="1041" class="small">变化在于生成 P3 的浅层处理方式；是否改善真实撞击坑识别，要通过正式训练后的对照实验判断。</text>
+  <text x="50" y="1084" class="subtitle">2026-11-11 · 实现：ibn_backbone.py · 橙色为修改位置，白色为保留结构</text>
+</svg>

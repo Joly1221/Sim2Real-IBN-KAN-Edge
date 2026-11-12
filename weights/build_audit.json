@@ -1,0 +1,25 @@
+{
+  "output": "D:\\Projects\\[Seg]\\ultralytics-main\\sim2real_ibn\\weights\\yolo26n_sem_ibn_init.pt",
+  "source": "D:\\Projects\\Sim2real\\runs\\yolo26n_sem_50epochs_1024\\weights\\best.pt",
+  "source_sha256": "2f3b9d4650a6174dc801923dafc10ca389981118752cde384bc2b1b881c1e996",
+  "output_sha256": "12857f402d504e29ad72470847de40fcafca91cd93c40352bfdabf1f1cb065c7",
+  "parameters_before": 1631082,
+  "parameters_after": 1631082,
+  "unchanged_non_target_tensors": 359,
+  "protected_files": {
+    "D:\\Projects\\Sim2real\\runs\\yolo26n_sem_50epochs_1024\\weights\\best.pt": "2f3b9d4650a6174dc801923dafc10ca389981118752cde384bc2b1b881c1e996",
+    "D:\\Projects\\[Seg]\\ultralytics-main\\ultralytics-main\\ultralytics\\nn\\modules\\conv.py": "927d511e0b494307e5e8104893f28addf27425999eab0ec83452bbf1f3b4df17",
+    "D:\\Projects\\[Seg]\\ultralytics-main\\ultralytics-main\\ultralytics\\nn\\modules\\block.py": "3be57fed557f10f76701f66cf91788bc6ec9ce1683f1a34b407aba65847c744f",
+    "D:\\Projects\\[Seg]\\ultralytics-main\\ultralytics-main\\ultralytics\\nn\\tasks.py": "1048ab8db7504e7c57a77d05bfbd855e9de0ef477e15a5aae8cdb7e8a958246a",
+    "D:\\Projects\\[Seg]\\ultralytics-main\\ultralytics-main\\ultralytics\\engine\\trainer.py": "7016131a47b61a8b9b9ea51ef5a9e59b0fb896a328eed4901c89ac7a83169655",
+    "D:\\Projects\\[Seg]\\ultralytics-main\\ultralytics-main\\ultralytics\\models\\yolo\\semantic\\train.py": "9e4b2ae89253f4648914976db489210d910d4570d1c90ecda11693e595af9d80",
+    "D:\\Projects\\[Seg]\\ultralytics-main\\ultralytics-main\\ultralytics\\cfg\\models\\26\\yolo26-sem.yaml": "ad7de0daf064ed4f53ede8ed0a32d6aa339a5da3cd304791d815aada87b99d82",
+    "D:\\Projects\\[Seg]\\ultralytics-main\\sim2real_edge_branch\\edge_branch.py": "1aa2f9c0c72e5de9f8e7614a833c3224ba9f568761abe0a115d1ca55f50267a1",
+    "D:\\Projects\\[Seg]\\ultralytics-main\\sim2real_edge_branch\\train_edge.py": "0cb9b0f287e16e27f4bb94426965b9c06de26f83703d1940461e043bf1e133a2",
+    "D:\\Projects\\[Seg]\\ultralytics-main\\sim2real_conv_adapter\\train_adapter.py": "81985b5e611adc1d80b6dff43b9e99d3d1f462e285617e94550483318b2ed334"
+  },
+  "protected_files_unchanged": true,
+  "initialization_only": true,
+  "output_equivalence_to_original_expected": false,
+  "replacement": "model.2.cv1.bn: BN(32) -> IN(16)+BN(16)"
+}
